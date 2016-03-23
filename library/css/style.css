@@ -2124,18 +2124,19 @@ GLOBAL CUSTOM STYLES
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
   text-transform: uppercase;
   border: none;
-  border-radius: 7px;
+  border-radius: 0px;
+  text-align: center;
 }
-/* line 901, ../scss/breakpoints/_base.scss */
+/* line 902, ../scss/breakpoints/_base.scss */
 .btn-primary:hover {
-  background-color: #5bcb3f;
+  background-color: #ff9832;
 }
 
-/* line 906, ../scss/breakpoints/_base.scss */
+/* line 907, ../scss/breakpoints/_base.scss */
 a.btn-primary {
   color: #fff;
 }
-/* line 908, ../scss/breakpoints/_base.scss */
+/* line 909, ../scss/breakpoints/_base.scss */
 a.btn-primary:hover {
   color: #fff;
 }
@@ -2146,6 +2147,37 @@ SPECIFIC PAGE TEMPLATES
 /* line 920, ../scss/breakpoints/_base.scss */
 #home-hero-section {
   background: url(../images/collide-hero-bkg.jpg) no-repeat;
+}
+
+/* line 924, ../scss/breakpoints/_base.scss */
+.home-hero-width {
+  text-align: center;
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+/* line 930, ../scss/breakpoints/_base.scss */
+#home-hero-content {
+  padding: 4em 0em;
+}
+
+/* line 934, ../scss/breakpoints/_base.scss */
+#home-hero-btn {
+  margin: 0 auto;
+  max-width: 15em;
+}
+
+/* line 940, ../scss/breakpoints/_base.scss */
+.services-box {
+  border: 1px solid #eaedf2;
+  min-height: 12em;
+  text-align: center;
+  margin: 2em;
+  width: 25%;
+}
+/* line 946, ../scss/breakpoints/_base.scss */
+.services-box h2 {
+  color: #0075c8;
 }
 
 /*********************
