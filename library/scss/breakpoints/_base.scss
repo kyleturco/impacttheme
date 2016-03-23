@@ -184,12 +184,6 @@ and more scalable.
 			text-decoration: none;
 			padding: 0.75em;
 
-			/*
-			remember this is for mobile ONLY, so there's no need
-			to even declare hover styles here, you can do it in
-			the style.scss file where it's relevant. We want to
-			keep this file as small as possible!
-			*/
 			&:hover, &:focus {
 
 			}
@@ -199,13 +193,7 @@ and more scalable.
 
 		&:last-child {}
 
-		/*
-		so you really have to rethink your dropdowns for mobile.
-		you don't want to have it expand too much because the
-		screen is so small. How you manage your menu should
-		depend on the project. Here's some great info on it:
-		http://www.alistapart.com/articles/organizing-mobile/
-		*/
+
 		ul.sub-menu,
 		ul.children {
 
@@ -883,3 +871,52 @@ FOOTER STYLES
 
 
 	.copyright {}
+/*********************
+GLOBAL CUSTOM STYLES
+*********************/
+
+// global //
+.text-white {
+  color: $white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-left-pad {
+  padding-left: 0px;
+}
+
+// buttons //
+.btn-primary {
+  color: $white;
+  background-color: $orange;
+  font-size: 1.2em;
+  padding: 0.4em 0.8em;
+  font-family: $robotoSlab;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 7px;
+  &:hover {
+    background-color: darken($green, 10%);
+  }
+}
+
+a.btn-primary {
+  color: $white;
+  &:hover {
+    color: $white;
+  }
+}
+
+
+/*********************
+SPECIFIC PAGE TEMPLATES
+*********************/
+
+// Hero section styles
+
+#home-hero-section {
+  background: url(../images/collide-hero-bkg.jpg) no-repeat;
+}
