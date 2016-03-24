@@ -957,3 +957,20 @@ SPECIFIC PAGE TEMPLATES
 #about-section {
   background: $collide-blue;
 }
+
+// Contact section
+#contact-section {
+  background: $collide-blue;
+}
+
+.icon-section {
+  .contact-item {
+    display: block;
+    float: left;
+  }
+  .fa {
+    font-size: 1.4em;
+    display: block;
+    float: left;
+  }
+}

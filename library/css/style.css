@@ -2191,6 +2191,23 @@ SPECIFIC PAGE TEMPLATES
   background: #0075c8;
 }
 
+/* line 962, ../scss/breakpoints/_base.scss */
+#contact-section {
+  background: #0075c8;
+}
+
+/* line 967, ../scss/breakpoints/_base.scss */
+.icon-section .contact-item {
+  display: block;
+  float: left;
+}
+/* line 971, ../scss/breakpoints/_base.scss */
+.icon-section .fa {
+  font-size: 1.4em;
+  display: block;
+  float: left;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's

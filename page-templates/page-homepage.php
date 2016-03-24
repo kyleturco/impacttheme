@@ -93,5 +93,47 @@ Template Name: Homepage
     </div>
   </div>
 </div>
+<div id="team-section">
+  <div class="container">
+    <div class="team-section-content">
+      <h1 class="header-underline">Team</h1>
+      <div class="team-container">
+        <div class="col-md-4 team-member"></div>
+        <div class="col-md-4 team-member"></div>
+        <div class="col-md-4 team-member"></div>
+        <div class="clearfix"></div>
+        <div class="col-md-4 team-member"></div>
+        <div class="col-md-4 team-member"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="contact-section">
+  <div class="container">
+    <div id="contact-section-content">
+      <h1 class="header-underline text-white">Let's Talk</h1>
+      <div class="col-md-4">
+        <p class="text-white">Sentence encouraging communication of some kind. Get in touch today!</p>
+        <div class="icon-section">
+          <div class="icon-1">
+            <i class="fa fa-phone-square text-white"></i><h4 class="contact-item text-white">615-567-3122</h4>
+          </div>
+          <div class="clearfix"></div>
+          <div class="icon-2">
+            <i class="fa fa-facebook-square text-white"></i><h4 class="contact-item text-white">Facebook</h4>
+          </div>
+          <div class="clearfix"></div>
+          <div class="icon-3">
+            <i class="fa fa-twitter-square text-white"></i><h4 class="contact-item text-white">@collide_mg</h4>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <?php echo do_shortcode( '[contact-form-7 id="7" title="Contact form 1"]' ); ?>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php get_footer(); ?>
