@@ -911,6 +911,11 @@ a.btn-primary {
   }
 }
 
+.header-underline {
+  border-bottom: 3px solid $collide-yellow;
+  display: block;
+}
+
 
 /*********************
 SPECIFIC PAGE TEMPLATES
@@ -946,4 +951,9 @@ SPECIFIC PAGE TEMPLATES
   h2 {
     color: $collide-blue;
   }
+}
+
+// About section
+#about-section {
+  background: $collide-blue;
 }
