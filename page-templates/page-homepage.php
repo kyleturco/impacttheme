@@ -116,6 +116,14 @@ Template Name: Homepage
             $job_title = get_field('job_title');
             $email = get_field('email');
         ?>
+        <div class="team-member">
+          <a href=""><?php the_post_thumbnail('thumbnail'); ?></a>
+        </div>
+       <?php
+            $i++;
+          }
+        }
+      ?>
       </div>
     </div>
   </div>
