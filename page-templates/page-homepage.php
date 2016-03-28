@@ -96,14 +96,26 @@ Template Name: Homepage
 <div id="team-section">
   <div class="container">
     <div class="team-section-content">
+    <?php
+    $args = array(
+        'post_type' => 'team',
+        'posts_per_page' => -1,
+        'orderby' => 'menu_order',
+        'order' => 'ASC'
+      );
+    $team_members = new WP_Query( $args );
+    ?>
       <h1 class="header-underline">Team</h1>
       <div class="team-container">
-        <div class="col-md-4 team-member"></div>
-        <div class="col-md-4 team-member"></div>
-        <div class="col-md-4 team-member"></div>
-        <div class="clearfix"></div>
-        <div class="col-md-4 team-member"></div>
-        <div class="col-md-4 team-member"></div>
+        <?php
+        $i = 0;
+        if ( $team_members->have_posts() ) {
+          while ( $team_members->have_posts() ) {
+            $team_members->the_post();
+            $image_url = get_field('team_member_image', $post->ID)['url'];
+            $job_title = get_field('job_title');
+            $email = get_field('email');
+        ?>
       </div>
     </div>
   </div>
