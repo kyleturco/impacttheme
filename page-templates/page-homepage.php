@@ -9,12 +9,17 @@ Template Name: Homepage
 <div id="home-hero-section">
   <div class="container">
     <div id="home-hero-content" class="home-hero-width">
+      <div class="logo-circle">
+        <img src="<?php echo get_template_directory_uri(); ?>/library/images/collide-circle-logo.png">
+      </div>
       <h1 class="text-white">Slogan or value statement goes here</h1>
-      <p class="text-white">
+      <p id="home-hero-description" class="text-white">
         Collide Media Group is a Nashville-based marketing company that specializes in faith based,
         family entertainment
       </p>
-      <div id="home-hero-btn" class="btn-primary">our services</div>
+      <a class="btn-link" href="#home-services-section">
+        <div id="home-hero-btn" class="btn-primary">our services <i class="fa fa-angle-double-down"></i></div>
+      </a>
     </div>
   </div>
 </div>
@@ -112,12 +117,15 @@ Template Name: Homepage
         if ( $team_members->have_posts() ) {
           while ( $team_members->have_posts() ) {
             $team_members->the_post();
+            $member_name = get_the_title();
             $image_url = get_field('team_member_image', $post->ID)['url'];
             $job_title = get_field('job_title');
             $email = get_field('email');
         ?>
         <div class="team-member">
-          <a href=""><?php the_post_thumbnail('thumbnail'); ?></a>
+          <a href=""><?php the_post_thumbnail('large'); ?></a>
+          <h3><?php echo $member_name; ?></h3>
+          <p><?php echo $job_title; ?></p>
         </div>
        <?php
             $i++;

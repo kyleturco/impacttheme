@@ -1440,8 +1440,8 @@ GENERAL STYLES
 /* line 18, ../scss/breakpoints/_base.scss */
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.6;
   color: #5f5f5f;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -2163,17 +2163,50 @@ SPECIFIC PAGE TEMPLATES
 }
 
 /* line 935, ../scss/breakpoints/_base.scss */
+.logo-circle {
+  max-width: 195px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 939, ../scss/breakpoints/_base.scss */
+.logo-circle img {
+  width: 100%;
+}
+
+/* line 944, ../scss/breakpoints/_base.scss */
 #home-hero-content {
   padding: 4em 0em;
 }
-
-/* line 939, ../scss/breakpoints/_base.scss */
-#home-hero-btn {
-  margin: 0 auto;
-  max-width: 15em;
+/* line 946, ../scss/breakpoints/_base.scss */
+#home-hero-content h1 {
+  font-size: 2.75em;
+  margin-bottom: 0.25em;
 }
 
-/* line 945, ../scss/breakpoints/_base.scss */
+/* line 952, ../scss/breakpoints/_base.scss */
+#home-hero-description {
+  font-size: 1.2em;
+}
+
+/* line 956, ../scss/breakpoints/_base.scss */
+.btn-link {
+  text-decoration: none;
+}
+/* line 958, ../scss/breakpoints/_base.scss */
+.btn-link:hover {
+  text-decoration: none;
+}
+
+/* line 963, ../scss/breakpoints/_base.scss */
+#home-hero-btn {
+  margin: 1.5em auto 0em;
+  max-width: 13em;
+  font-weight: 700;
+  font-size: 1.3em;
+  padding: 0.6em 0.8em 0.7em;
+}
+
+/* line 972, ../scss/breakpoints/_base.scss */
 .services-box {
   border: 1px solid #eaedf2;
   min-height: 12em;
@@ -2181,27 +2214,39 @@ SPECIFIC PAGE TEMPLATES
   margin: 2em;
   width: 25%;
 }
-/* line 951, ../scss/breakpoints/_base.scss */
+/* line 978, ../scss/breakpoints/_base.scss */
 .services-box h2 {
   color: #0075c8;
 }
 
-/* line 957, ../scss/breakpoints/_base.scss */
+/* line 984, ../scss/breakpoints/_base.scss */
 #about-section {
   background: #0075c8;
 }
 
-/* line 962, ../scss/breakpoints/_base.scss */
+/* line 989, ../scss/breakpoints/_base.scss */
+.team-section-content {
+  padding: 4em 0em;
+}
+
+/* line 993, ../scss/breakpoints/_base.scss */
+.team-member {
+  width: 33%;
+  display: block;
+  float: left;
+}
+
+/* line 1000, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 967, ../scss/breakpoints/_base.scss */
+/* line 1005, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
 }
-/* line 971, ../scss/breakpoints/_base.scss */
+/* line 1009, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;

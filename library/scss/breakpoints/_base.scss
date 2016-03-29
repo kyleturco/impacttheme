@@ -17,8 +17,8 @@ GENERAL STYLES
 
 body {
 	font-family: $openSans;
-	font-size: 18px;
-	line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.6;
 	color: $text-color;
 	background-color: $white;
   	-webkit-font-smoothing: antialiased;
@@ -932,13 +932,40 @@ SPECIFIC PAGE TEMPLATES
   margin: 0 auto;
 }
 
+.logo-circle {
+  max-width: 195px;
+  display: block;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+}
+
 #home-hero-content {
   padding: 4em 0em;
+  h1 {
+    font-size: 2.75em;
+    margin-bottom: 0.25em;
+  }
+}
+
+#home-hero-description {
+  font-size: 1.2em;
+}
+
+.btn-link {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 #home-hero-btn {
-  margin: 0 auto;
-  max-width: 15em;
+  margin: 1.5em auto 0em;
+  max-width: 13em;
+  font-weight: 700;
+  font-size: 1.3em;
+  padding: 0.6em 0.8em 0.7em;
 }
 
 // Services section styles
@@ -956,6 +983,17 @@ SPECIFIC PAGE TEMPLATES
 // About section
 #about-section {
   background: $collide-blue;
+}
+
+// Team section
+.team-section-content {
+  padding: 4em 0em;
+}
+
+.team-member {
+  width: 33%;
+  display: block;
+  float: left;
 }
 
 // Contact section
