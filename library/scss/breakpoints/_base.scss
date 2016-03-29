@@ -935,6 +935,7 @@ SPECIFIC PAGE TEMPLATES
 // Hero section styles
 #home-hero-section {
   background: url(../images/collide-hero-bkg.jpg) no-repeat;
+  background-size: cover;
 }
 
 .home-hero-width {
@@ -982,10 +983,8 @@ SPECIFIC PAGE TEMPLATES
 // Services section styles
 .services-box {
   border: 1px solid $gray;
-  min-height: 12em;
+  min-height: 15em;
   text-align: center;
-  margin: 2em;
-  width: 25%;
   transition: 0.3s;
   padding: 2em 1em 1em 1em;
   &:hover {
@@ -1017,7 +1016,6 @@ SPECIFIC PAGE TEMPLATES
 }
 
 #additional-services {
-  border-top: 1px solid $gray;
   text-align: center;
   padding: 3em 0em;
   h3 {

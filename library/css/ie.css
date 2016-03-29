@@ -384,7 +384,31 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
-/* line 290, ../scss/breakpoints/_768up.scss */
+/* line 289, ../scss/breakpoints/_768up.scss */
+.services-box {
+  width: 30.5%;
+  padding: 2em 2.5em 1em 2.5em;
+}
+
+/* line 294, ../scss/breakpoints/_768up.scss */
+#camp-mgmt-box,
+#brand-dev-box {
+  margin-right: 2em;
+}
+
+/* line 299, ../scss/breakpoints/_768up.scss */
+.services-boxes {
+  margin-bottom: 3em;
+}
+
+/* line 303, ../scss/breakpoints/_768up.scss */
+#home-services-content {
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eaedf2;
+}
+
+/* line 311, ../scss/breakpoints/_768up.scss */
 #about-section .paragraph-2 {
   padding-left: 1em;
 }

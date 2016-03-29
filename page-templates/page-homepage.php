@@ -39,8 +39,8 @@ Template Name: Homepage
           <div class="icon"></div>
           <h2>Strategic Partnerships</h2>
         </div>
+        <div class="clearfix"></div>
       </div>
-      <div class="clearfix"></div>
       <div class="services-content">
         <div class="content-box" id="services">
           <p>
