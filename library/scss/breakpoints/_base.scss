@@ -890,7 +890,6 @@ GLOBAL CUSTOM STYLES
 
 .header-underline {
   border-bottom: 3px solid $collide-yellow;
-  display: block;
 }
 
 .inner-content {
@@ -986,14 +985,48 @@ SPECIFIC PAGE TEMPLATES
   text-align: center;
   margin: 2em;
   width: 25%;
+  transition: 0.3s;
+  padding: 2em 1em 1em 1em;
+  &:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+  }
+  .icon {
+    background: $gray;
+    width: 6em;
+    height: 6em;
+    margin: 0 auto;
+    border-radius: 3.5em;
+  }
   h2 {
     color: $collide-blue;
+  }
+}
+
+.services-boxes {
+  .active {
+    border-bottom: 7px solid $collide-yellow;
   }
 }
 
 #brand-dev,
 #strat-part {
   display: none;
+}
+
+#additional-services {
+  border-top: 1px solid $gray;
+  text-align: center;
+  padding: 3em 0em;
+  h3 {
+    color: $collide-blue;
+    font-weight: 700;
+  }
+  .service-1,
+  .service-2 {
+    border-right: 1px solid $collide-blue;
+  }
 }
 
 // About section

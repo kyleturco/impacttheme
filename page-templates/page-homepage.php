@@ -28,12 +28,15 @@ Template Name: Homepage
     <div id="home-services-content" class="inner-content">
       <div class="services-boxes">
         <div id="camp-mgmt-box" class="services-box col-md-4 active">
+          <div class="icon"></div>
           <h2>Campaign Management</h2>
         </div>
         <div id="brand-dev-box" class="services-box col-md-4">
+          <div class="icon"></div>
           <h2>Brand Development</h2>
         </div>
         <div id="strat-part-box" class="services-box col-md-4">
+          <div class="icon"></div>
           <h2>Strategic Partnerships</h2>
         </div>
       </div>
@@ -45,48 +48,64 @@ Template Name: Homepage
             back together, we are able to set aside things that are not essential to your goals and mission.  In the
             case of brand development, we are unique in three ways:
           </p>
-          <div class="col-md-4 quality-item no-left-pad">
-            <h4>Our Faith</h4>
-            <p>
-              We believe that we have a Creator and everything was created, likewise, we look at someone with an
-              idea (or tons of ideas) or a brand, and know this came out of their life somewhere.
-            </p>
+          <div class="bottom-section content-box">
+            <div class="col-md-4 quality-item no-left-pad">
+              <h4>Our Faith</h4>
+              <p>
+                We believe that we have a Creator and everything was created, likewise, we look at someone with an
+                idea (or tons of ideas) or a brand, and know this came out of their life somewhere.
+              </p>
+            </div>
+            <div class="col-md-4 quality-item no-left-pad">
+              <h4>Our Experience</h4>
+              <p>
+                Collide has a long history of campaign management on behalf of ministries and brands.  Collide team
+                members have developed brands and quarterbacked campaigns.
+              </p>
+            </div>
+            <div class="col-md-4 quality-item no-left-pad">
+              <h4>Our Experience</h4>
+              <p>
+                A lot of what we do is create a differentiation, which comes with a deep understanding and working
+                knowledge of the market landscape.
+              </p>
+            </div>
+            <div class="clearfix"></div>
           </div>
-          <div class="col-md-4 quality-item no-left-pad">
-            <h4>Our Experience</h4>
-            <p>
-              Collide has a long history of campaign management on behalf of ministries and brands.  Collide team
-              members have developed brands and quarterbacked campaigns.
-            </p>
-          </div>
-          <div class="col-md-4 quality-item no-left-pad">
-            <h4>Our Experience</h4>
-            <p>
-              A lot of what we do is create a differentiation, which comes with a deep understanding and working
-              knowledge of the market landscape.
-            </p>
-          </div>
-          <div class="clearfix"></div>
         </div>
         <div class="content-box" id="brand-dev">
           <div class="brand-dev-content">
             <p>
-              Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
-              back together, we are able to set aside things that are not essential to your goals and mission.  In the
-              case of brand development, we are unique in three ways:
+              At the center of every project, there are core elements that comprise the heart and driving force behind
+              a consumer experience.  At Collide, we identify those foundational themes and help identify those
+              organizations, ministries, para-church denominations and networks that have a similar drive and focus.
+              By identifying partners with a strong “mission match” that ties the organization to the project, we are
+              able to bring both parties together to achieve true “win-win partnerships”.  With decades of experience
+              in the marketplace, we have developed strategic partnerships for some of the most successful films and
+              brands in the Christian space.
             </p>
           </div>
         </div>
         <div class="content-box" id="strat-part">
           <div class="strat-part-content">
             <p>
-              HEY!!!!! Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
-              back together, we are able to set aside things that are not essential to your goals and mission.  In the
-              case of brand development, we are unique in three ways:
+              At the center of every project, there are core elements that comprise the heart and driving force behind
+              a consumer experience.  At Collide, we identify those foundational themes and help identify those
+              organizations, ministries, para-church denominations and networks that have a similar drive and focus.
+              By identifying partners with a strong “mission match” that ties the organization to the project, we are
+              able to bring both parties together to achieve true “win-win partnerships”.  With decades of experience
+              in the marketplace, we have developed strategic partnerships for some of the most successful films and
+              brands in the Christian space.
             </p>
           </div>
         </div>
       </div>
+    </div>
+    <div id="additional-services">
+      <h3 class="service-1 col-md-4">Consumer Engagement</h3>
+      <h3 class="service-2 col-md-4">Consulting Services</h3>
+      <h3 class="service-3 col-md-4">Retail Development</h3>
+      <div class="clearfix"></div>
     </div>
   </div>
 </div>
