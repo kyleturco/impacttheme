@@ -27,19 +27,19 @@ Template Name: Homepage
   <div class="container">
     <div id="home-services-content">
       <div class="services-boxes">
-        <div class="services-box col-md-4">
+        <div id="camp-mgmt-box" class="services-box col-md-4 active">
           <h2>Campaign Management</h2>
         </div>
-        <div class="services-box col-md-4">
+        <div id="brand-dev-box" class="services-box col-md-4">
           <h2>Brand Development</h2>
         </div>
-        <div class="services-box col-md-4">
+        <div id="strat-part-box" class="services-box col-md-4">
           <h2>Strategic Partnerships</h2>
         </div>
       </div>
       <div class="clearfix"></div>
       <div class="services-content">
-        <div class="campaign-mgmt-content">
+        <div class="content-box" id="services">
           <p>
             Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
             back together, we are able to set aside things that are not essential to your goals and mission.  In the
@@ -67,6 +67,24 @@ Template Name: Homepage
             </p>
           </div>
           <div class="clearfix"></div>
+        </div>
+        <div class="content-box" id="brand-dev">
+          <div class="brand-dev-content">
+            <p>
+              Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
+              back together, we are able to set aside things that are not essential to your goals and mission.  In the
+              case of brand development, we are unique in three ways:
+            </p>
+          </div>
+        </div>
+        <div class="content-box" id="strat-part">
+          <div class="strat-part-content">
+            <p>
+              HEY!!!!! Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
+              back together, we are able to set aside things that are not essential to your goals and mission.  In the
+              case of brand development, we are unique in three ways:
+            </p>
+          </div>
         </div>
       </div>
     </div>
