@@ -384,6 +384,11 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
+/* line 290, ../scss/breakpoints/_768up.scss */
+#about-section .paragraph-2 {
+  padding-left: 1em;
+}
+
 /******************************************************************
 Site Name:
 Author:

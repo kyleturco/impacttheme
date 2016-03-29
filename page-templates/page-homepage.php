@@ -45,21 +45,21 @@ Template Name: Homepage
             back together, we are able to set aside things that are not essential to your goals and mission.  In the
             case of brand development, we are unique in three ways:
           </p>
-          <div class="col-md-4 quality-item">
+          <div class="col-md-4 quality-item no-left-pad">
             <h4>Our Faith</h4>
             <p>
               We believe that we have a Creator and everything was created, likewise, we look at someone with an
               idea (or tons of ideas) or a brand, and know this came out of their life somewhere.
             </p>
           </div>
-          <div class="col-md-4 quality-item">
+          <div class="col-md-4 quality-item no-left-pad">
             <h4>Our Experience</h4>
             <p>
               Collide has a long history of campaign management on behalf of ministries and brands.  Collide team
               members have developed brands and quarterbacked campaigns.
             </p>
           </div>
-          <div class="col-md-4 quality-item">
+          <div class="col-md-4 quality-item no-left-pad">
             <h4>Our Experience</h4>
             <p>
               A lot of what we do is create a differentiation, which comes with a deep understanding and working
@@ -94,11 +94,11 @@ Template Name: Homepage
   <div class="container">
     <div class="inner-content">
       <h1 class="text-white header-underline">About</h1>
-      <p class="text-white">
+      <p class="text-white p-subhead">
         <b>Collide Media Group is a marketing agency whose mission is to elevate media that inspires a
         deeper relationship with Christ.</b>
       </p>
-      <div class="col-md-6 text-white">
+      <div class="col-md-6 text-white paragraph-1">
         <p>
           Over the years, Collide team members have helmed major brand development campaigns for clients such as
           Thomas Nelson Bibles, Moody Publishing and The Five Love Languages and faith financial icon Ron Blue. They
@@ -106,7 +106,7 @@ Template Name: Homepage
           "The Lion, The Witch, and the Wardrobe" in 2005,
         </p>
       </div>
-      <div class="col-md-6 text-white">
+      <div class="col-md-6 text-white paragraph-2">
         <p>
           “Courageous" and "Soul Surfer" in 2011 and Paramount's "Captive" in 2015.  Strategic partnerships have been
           formed and developed for clients including the recent box office hit "God's Not Dead" and currently with
@@ -160,7 +160,7 @@ Template Name: Homepage
   <div class="container">
     <div id="contact-section-content" class="inner-content">
       <h1 class="header-underline text-white">Let's Talk</h1>
-      <div class="col-md-4">
+      <div class="col-md-4 no-left-pad">
         <p class="text-white">Sentence encouraging communication of some kind. Get in touch today!</p>
         <div class="icon-section">
           <div class="icon-1">

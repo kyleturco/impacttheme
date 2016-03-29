@@ -888,6 +888,23 @@ GLOBAL CUSTOM STYLES
   padding-left: 0px;
 }
 
+.header-underline {
+  border-bottom: 3px solid $collide-yellow;
+  display: block;
+}
+
+.inner-content {
+  padding: 5em 0em;
+}
+
+.container {
+  max-width: 1040px;
+}
+
+.p-subhead {
+  font-size: 1.25em;
+}
+
 // buttons //
 .btn-primary {
   color: $white;
@@ -909,15 +926,6 @@ a.btn-primary {
   &:hover {
     color: $white;
   }
-}
-
-.header-underline {
-  border-bottom: 3px solid $collide-yellow;
-  display: block;
-}
-
-.inner-content {
-  padding: 5em 0em;
 }
 
 /*********************
@@ -991,6 +999,10 @@ SPECIFIC PAGE TEMPLATES
 // About section
 #about-section {
   background: $collide-blue;
+  .paragraph-1,
+  .paragraph-2 {
+    padding-left: 0em;
+  }
 }
 
 // Team section
