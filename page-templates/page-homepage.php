@@ -8,7 +8,7 @@ Template Name: Homepage
 
 <div id="home-hero-section">
   <div class="container">
-    <div id="home-hero-content" class="home-hero-width">
+    <div id="home-hero-content" class="home-hero-width inner-content">
       <div class="logo-circle">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/collide-circle-logo.png">
       </div>
@@ -25,7 +25,7 @@ Template Name: Homepage
 </div>
 <div id="home-services-section">
   <div class="container">
-    <div id="home-services-content">
+    <div id="home-services-content" class="inner-content">
       <div class="services-boxes">
         <div id="camp-mgmt-box" class="services-box col-md-4 active">
           <h2>Campaign Management</h2>
@@ -92,7 +92,7 @@ Template Name: Homepage
 </div>
 <div id="about-section">
   <div class="container">
-    <div class="about-section-content">
+    <div class="inner-content">
       <h1 class="text-white header-underline">About</h1>
       <p class="text-white">
         <b>Collide Media Group is a marketing agency whose mission is to elevate media that inspires a
@@ -113,21 +113,22 @@ Template Name: Homepage
           Phil Vischer's "JellyTelly" media platform for families.
         </p>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 </div>
 <div id="team-section">
   <div class="container">
-    <div class="team-section-content">
-    <?php
-    $args = array(
-        'post_type' => 'team',
-        'posts_per_page' => -1,
-        'orderby' => 'menu_order',
-        'order' => 'ASC'
-      );
-    $team_members = new WP_Query( $args );
-    ?>
+    <div class="inner-content team-section-content">
+      <?php
+      $args = array(
+          'post_type' => 'team',
+          'posts_per_page' => -1,
+          'orderby' => 'menu_order',
+          'order' => 'ASC'
+        );
+      $team_members = new WP_Query( $args );
+      ?>
       <h1 class="header-underline">Team</h1>
       <div class="team-container">
         <?php
@@ -151,12 +152,13 @@ Template Name: Homepage
         }
       ?>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 </div>
 <div id="contact-section">
   <div class="container">
-    <div id="contact-section-content">
+    <div id="contact-section-content" class="inner-content">
       <h1 class="header-underline text-white">Let's Talk</h1>
       <div class="col-md-4">
         <p class="text-white">Sentence encouraging communication of some kind. Get in touch today!</p>
@@ -178,6 +180,7 @@ Template Name: Homepage
       <div class="col-md-8">
         <?php echo do_shortcode( '[contact-form-7 id="7" title="Contact form 1"]' ); ?>
       </div>
+      <div class="clearfix"></div>
     </div>
   </div>
 </div>

@@ -916,9 +916,8 @@ a.btn-primary {
   display: block;
 }
 
-#brand-dev,
-#strat-part {
-  display: none;
+.inner-content {
+  padding: 5em 0em;
 }
 
 /*********************
@@ -982,6 +981,11 @@ SPECIFIC PAGE TEMPLATES
   h2 {
     color: $collide-blue;
   }
+}
+
+#brand-dev,
+#strat-part {
+  display: none;
 }
 
 // About section

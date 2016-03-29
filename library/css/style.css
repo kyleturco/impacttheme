@@ -2148,62 +2148,61 @@ a.btn-primary:hover {
 }
 
 /* line 919, ../scss/breakpoints/_base.scss */
-#brand-dev,
-#strat-part {
-  display: none;
+.inner-content {
+  padding: 5em 0em;
 }
 
 /*********************
 SPECIFIC PAGE TEMPLATES
 *********************/
-/* line 929, ../scss/breakpoints/_base.scss */
+/* line 928, ../scss/breakpoints/_base.scss */
 #home-hero-section {
   background: url(../images/collide-hero-bkg.jpg) no-repeat;
 }
 
-/* line 933, ../scss/breakpoints/_base.scss */
+/* line 932, ../scss/breakpoints/_base.scss */
 .home-hero-width {
   text-align: center;
   max-width: 35em;
   margin: 0 auto;
 }
 
-/* line 939, ../scss/breakpoints/_base.scss */
+/* line 938, ../scss/breakpoints/_base.scss */
 .logo-circle {
   max-width: 195px;
   display: block;
   margin: 0 auto;
 }
-/* line 943, ../scss/breakpoints/_base.scss */
+/* line 942, ../scss/breakpoints/_base.scss */
 .logo-circle img {
   width: 100%;
 }
 
-/* line 948, ../scss/breakpoints/_base.scss */
+/* line 947, ../scss/breakpoints/_base.scss */
 #home-hero-content {
   padding: 4em 0em;
 }
-/* line 950, ../scss/breakpoints/_base.scss */
+/* line 949, ../scss/breakpoints/_base.scss */
 #home-hero-content h1 {
   font-size: 2.75em;
   margin-bottom: 0.25em;
 }
 
-/* line 956, ../scss/breakpoints/_base.scss */
+/* line 955, ../scss/breakpoints/_base.scss */
 #home-hero-description {
   font-size: 1.2em;
 }
 
-/* line 960, ../scss/breakpoints/_base.scss */
+/* line 959, ../scss/breakpoints/_base.scss */
 .btn-link {
   text-decoration: none;
 }
-/* line 962, ../scss/breakpoints/_base.scss */
+/* line 961, ../scss/breakpoints/_base.scss */
 .btn-link:hover {
   text-decoration: none;
 }
 
-/* line 967, ../scss/breakpoints/_base.scss */
+/* line 966, ../scss/breakpoints/_base.scss */
 #home-hero-btn {
   margin: 1.5em auto 0em;
   max-width: 13em;
@@ -2212,7 +2211,7 @@ SPECIFIC PAGE TEMPLATES
   padding: 0.6em 0.8em 0.7em;
 }
 
-/* line 976, ../scss/breakpoints/_base.scss */
+/* line 975, ../scss/breakpoints/_base.scss */
 .services-box {
   border: 1px solid #eaedf2;
   min-height: 12em;
@@ -2220,39 +2219,45 @@ SPECIFIC PAGE TEMPLATES
   margin: 2em;
   width: 25%;
 }
-/* line 982, ../scss/breakpoints/_base.scss */
+/* line 981, ../scss/breakpoints/_base.scss */
 .services-box h2 {
   color: #0075c8;
 }
 
-/* line 988, ../scss/breakpoints/_base.scss */
+/* line 986, ../scss/breakpoints/_base.scss */
+#brand-dev,
+#strat-part {
+  display: none;
+}
+
+/* line 992, ../scss/breakpoints/_base.scss */
 #about-section {
   background: #0075c8;
 }
 
-/* line 993, ../scss/breakpoints/_base.scss */
+/* line 997, ../scss/breakpoints/_base.scss */
 .team-section-content {
   padding: 4em 0em;
 }
 
-/* line 997, ../scss/breakpoints/_base.scss */
+/* line 1001, ../scss/breakpoints/_base.scss */
 .team-member {
   width: 33%;
   display: block;
   float: left;
 }
 
-/* line 1004, ../scss/breakpoints/_base.scss */
+/* line 1008, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 1009, ../scss/breakpoints/_base.scss */
+/* line 1013, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
 }
-/* line 1013, ../scss/breakpoints/_base.scss */
+/* line 1017, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
