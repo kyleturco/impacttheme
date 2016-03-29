@@ -890,6 +890,7 @@ GLOBAL CUSTOM STYLES
 
 .header-underline {
   border-bottom: 3px solid $collide-yellow;
+  display: inline-block;
 }
 
 .inner-content {
@@ -1058,10 +1059,17 @@ SPECIFIC PAGE TEMPLATES
   .contact-item {
     display: block;
     float: left;
+    margin: 0em 0em 0em 1.2em;
   }
   .fa {
     font-size: 1.4em;
     display: block;
     float: left;
   }
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+  padding-bottom: 2.5em;
 }

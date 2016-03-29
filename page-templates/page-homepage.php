@@ -179,6 +179,7 @@ Template Name: Homepage
   <div class="container">
     <div id="contact-section-content" class="inner-content">
       <h1 class="header-underline text-white">Let's Talk</h1>
+      <div class="clearfix"></div>
       <div class="col-md-4 no-left-pad">
         <p class="text-white">Sentence encouraging communication of some kind. Get in touch today!</p>
         <div class="icon-section">
@@ -193,7 +194,6 @@ Template Name: Homepage
           <div class="icon-3">
             <i class="fa fa-twitter-square text-white"></i><h4 class="contact-item text-white">@collide_mg</h4>
           </div>
-          <div class="clearfix"></div>
         </div>
       </div>
       <div class="col-md-8">

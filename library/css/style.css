@@ -2118,24 +2118,25 @@ GLOBAL CUSTOM STYLES
 /* line 891, ../scss/breakpoints/_base.scss */
 .header-underline {
   border-bottom: 3px solid #ffde17;
+  display: inline-block;
 }
 
-/* line 895, ../scss/breakpoints/_base.scss */
+/* line 896, ../scss/breakpoints/_base.scss */
 .inner-content {
   padding: 5em 0em;
 }
 
-/* line 899, ../scss/breakpoints/_base.scss */
+/* line 900, ../scss/breakpoints/_base.scss */
 .container {
   max-width: 1040px;
 }
 
-/* line 903, ../scss/breakpoints/_base.scss */
+/* line 904, ../scss/breakpoints/_base.scss */
 .p-subhead {
   font-size: 1.25em;
 }
 
-/* line 908, ../scss/breakpoints/_base.scss */
+/* line 909, ../scss/breakpoints/_base.scss */
 .btn-primary {
   color: #fff;
   background-color: #fe7e00;
@@ -2147,16 +2148,16 @@ GLOBAL CUSTOM STYLES
   border-radius: 0px;
   text-align: center;
 }
-/* line 918, ../scss/breakpoints/_base.scss */
+/* line 919, ../scss/breakpoints/_base.scss */
 .btn-primary:hover {
   background-color: #ff9832;
 }
 
-/* line 923, ../scss/breakpoints/_base.scss */
+/* line 924, ../scss/breakpoints/_base.scss */
 a.btn-primary {
   color: #fff;
 }
-/* line 925, ../scss/breakpoints/_base.scss */
+/* line 926, ../scss/breakpoints/_base.scss */
 a.btn-primary:hover {
   color: #fff;
 }
@@ -2164,54 +2165,54 @@ a.btn-primary:hover {
 /*********************
 SPECIFIC PAGE TEMPLATES
 *********************/
-/* line 935, ../scss/breakpoints/_base.scss */
+/* line 936, ../scss/breakpoints/_base.scss */
 #home-hero-section {
   background: url(../images/collide-hero-bkg.jpg) no-repeat;
 }
 
-/* line 939, ../scss/breakpoints/_base.scss */
+/* line 940, ../scss/breakpoints/_base.scss */
 .home-hero-width {
   text-align: center;
   max-width: 35em;
   margin: 0 auto;
 }
 
-/* line 945, ../scss/breakpoints/_base.scss */
+/* line 946, ../scss/breakpoints/_base.scss */
 .logo-circle {
   max-width: 195px;
   display: block;
   margin: 0 auto;
 }
-/* line 949, ../scss/breakpoints/_base.scss */
+/* line 950, ../scss/breakpoints/_base.scss */
 .logo-circle img {
   width: 100%;
 }
 
-/* line 954, ../scss/breakpoints/_base.scss */
+/* line 955, ../scss/breakpoints/_base.scss */
 #home-hero-content {
   padding: 4em 0em;
 }
-/* line 956, ../scss/breakpoints/_base.scss */
+/* line 957, ../scss/breakpoints/_base.scss */
 #home-hero-content h1 {
   font-size: 2.75em;
   margin-bottom: 0.25em;
 }
 
-/* line 962, ../scss/breakpoints/_base.scss */
+/* line 963, ../scss/breakpoints/_base.scss */
 #home-hero-description {
   font-size: 1.2em;
 }
 
-/* line 966, ../scss/breakpoints/_base.scss */
+/* line 967, ../scss/breakpoints/_base.scss */
 .btn-link {
   text-decoration: none;
 }
-/* line 968, ../scss/breakpoints/_base.scss */
+/* line 969, ../scss/breakpoints/_base.scss */
 .btn-link:hover {
   text-decoration: none;
 }
 
-/* line 973, ../scss/breakpoints/_base.scss */
+/* line 974, ../scss/breakpoints/_base.scss */
 #home-hero-btn {
   margin: 1.5em auto 0em;
   max-width: 13em;
@@ -2220,7 +2221,7 @@ SPECIFIC PAGE TEMPLATES
   padding: 0.6em 0.8em 0.7em;
 }
 
-/* line 982, ../scss/breakpoints/_base.scss */
+/* line 983, ../scss/breakpoints/_base.scss */
 .services-box {
   border: 1px solid #eaedf2;
   min-height: 12em;
@@ -2230,13 +2231,13 @@ SPECIFIC PAGE TEMPLATES
   transition: 0.3s;
   padding: 2em 1em 1em 1em;
 }
-/* line 990, ../scss/breakpoints/_base.scss */
+/* line 991, ../scss/breakpoints/_base.scss */
 .services-box:hover {
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
-/* line 995, ../scss/breakpoints/_base.scss */
+/* line 996, ../scss/breakpoints/_base.scss */
 .services-box .icon {
   background: #eaedf2;
   width: 6em;
@@ -2244,76 +2245,84 @@ SPECIFIC PAGE TEMPLATES
   margin: 0 auto;
   border-radius: 3.5em;
 }
-/* line 1002, ../scss/breakpoints/_base.scss */
+/* line 1003, ../scss/breakpoints/_base.scss */
 .services-box h2 {
   color: #0075c8;
 }
 
-/* line 1008, ../scss/breakpoints/_base.scss */
+/* line 1009, ../scss/breakpoints/_base.scss */
 .services-boxes .active {
   border-bottom: 7px solid #ffde17;
 }
 
-/* line 1013, ../scss/breakpoints/_base.scss */
+/* line 1014, ../scss/breakpoints/_base.scss */
 #brand-dev,
 #strat-part {
   display: none;
 }
 
-/* line 1018, ../scss/breakpoints/_base.scss */
+/* line 1019, ../scss/breakpoints/_base.scss */
 #additional-services {
   border-top: 1px solid #eaedf2;
   text-align: center;
   padding: 3em 0em;
 }
-/* line 1022, ../scss/breakpoints/_base.scss */
+/* line 1023, ../scss/breakpoints/_base.scss */
 #additional-services h3 {
   color: #0075c8;
   font-weight: 700;
 }
-/* line 1026, ../scss/breakpoints/_base.scss */
+/* line 1027, ../scss/breakpoints/_base.scss */
 #additional-services .service-1,
 #additional-services .service-2 {
   border-right: 1px solid #0075c8;
 }
 
-/* line 1033, ../scss/breakpoints/_base.scss */
+/* line 1034, ../scss/breakpoints/_base.scss */
 #about-section {
   background: #0075c8;
 }
-/* line 1035, ../scss/breakpoints/_base.scss */
+/* line 1036, ../scss/breakpoints/_base.scss */
 #about-section .paragraph-1,
 #about-section .paragraph-2 {
   padding-left: 0em;
 }
 
-/* line 1042, ../scss/breakpoints/_base.scss */
+/* line 1043, ../scss/breakpoints/_base.scss */
 .team-section-content {
   padding: 4em 0em;
 }
 
-/* line 1046, ../scss/breakpoints/_base.scss */
+/* line 1047, ../scss/breakpoints/_base.scss */
 .team-member {
   width: 33%;
   display: block;
   float: left;
 }
 
-/* line 1053, ../scss/breakpoints/_base.scss */
+/* line 1054, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 1058, ../scss/breakpoints/_base.scss */
+/* line 1059, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
+  margin: 0em 0em 0em 1.2em;
 }
-/* line 1062, ../scss/breakpoints/_base.scss */
+/* line 1064, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
   float: left;
+}
+
+/* line 1071, ../scss/breakpoints/_base.scss */
+.icon-1,
+.icon-2,
+.icon-3 {
+  padding-bottom: 2.5em;
 }
 
 /*********************
