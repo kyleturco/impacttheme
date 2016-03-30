@@ -51,7 +51,7 @@
 				<?php // if you'd like to use the site description you can un-comment it below ?>
 				<?php // bloginfo('description'); ?>
 
-        <nav class="navbar navbar-default navbar-fixed-top navbar-transparent" id="site-header" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <nav id="site-nav" class="navbar navbar-default navbar-fixed-top navbar-transparent" id="site-header" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
               <span class="icon-bar"></span>

@@ -4,6 +4,9 @@ jQuery(document).ready(function($) {
     $('.btn-link').on('click', smoothScroll)
     $('.header-link').on('click', smoothScroll)
     servicesShowHide()
+    $(window).scroll(function(event) {
+      changeHeaderStyles()
+    })
   }
 
   function smoothScroll(e) {
@@ -47,6 +50,21 @@ jQuery(document).ready(function($) {
       $brandDev.css('display', 'none')
       $stratPart.css('display', 'block')
     })
+  }
+
+  function changeHeaderStyles() {
+    var _$window = $(window)
+    var y = _$window.scrollTop()
+    var $navBar = $('#site-nav')
+    var headerHeight = $('.navbar-default').height()
+    var $navLink = $('.navbar-default .navbar-nav>li>a.header-link')
+    if (y > headerHeight) {
+      $navBar.removeClass('navbar-transparent')
+      $navLink.css('color', '#0075c8')
+    } if (y < headerHeight) {
+      $navBar.addClass('navbar-transparent')
+      $navLink.css('color', '#ffffff')
+    }
   }
 
   init()
