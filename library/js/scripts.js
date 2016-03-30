@@ -2,7 +2,8 @@ jQuery(document).ready(function($) {
 
   function init() {
     $('.btn-link').on('click', smoothScroll)
-    servicesShowHide();
+    $('.header-link').on('click', smoothScroll)
+    servicesShowHide()
   }
 
   function smoothScroll(e) {
@@ -48,5 +49,5 @@ jQuery(document).ready(function($) {
     })
   }
 
-  init();
+  init()
 });
