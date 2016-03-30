@@ -148,23 +148,19 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {
-	background-color: $black;
+#logo {
+	margin: 0.75em 0;
+
+	a {
+		color: $white;
+	}
 }
 
-	#logo {
-		margin: 0.75em 0;
-
-		a {
-			color: $white;
-		}
-	}
-
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a.header-link {
   font-family: $robotoSlab;
   color: $collide-blue;
-  font-weight: 600;
-  padding: 0.3em 0.7em;
+  font-weight: 400;
+  padding-left: 1.7em;
 }
 
 .navbar-default .navbar-collapse,

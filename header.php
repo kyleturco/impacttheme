@@ -48,31 +48,25 @@
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 		<div id="container">
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-				<div id="inner-header" class="wrap cf">
+				<?php // if you'd like to use the site description you can un-comment it below ?>
+				<?php // bloginfo('description'); ?>
 
-					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h3" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<?php // bloginfo('description'); ?>
-
-          <nav class="navbar navbar-default navbar-fixed-top" id="site-header" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" class="header-link" href="#">Collide</a>
-            </div>
-            <div class="collapse navbar-collapse" id="main-navbar">
-              <ul class="nav navbar-nav navbar-right" role="tablist" id="myTab">
-                <li class="menu-tab"><a class="header-link" href="#home-services-section">Services</a></li>
-                <li class="menu-tab"><a class="header-link" href="#about-section">About</a></li>
-                <li class="menu-tab"><a class="header-link" href="#team-section">Team</a></li>
-                <li class="menu-tab"><a class="header-link" href="#contact-section">Contact Us</a></li>
-              </ul>
-            </div>
-					</nav>
-				</div>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-transparent" id="site-header" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" class="header-link" href="#">Collide</a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="nav navbar-nav navbar-right" role="tablist" id="myTab">
+              <li class="menu-tab"><a class="header-link" href="#home-services-section">Services</a></li>
+              <li class="menu-tab"><a class="header-link" href="#about-section">About</a></li>
+              <li class="menu-tab"><a class="header-link" href="#team-section">Team</a></li>
+              <li class="menu-tab"><a class="header-link" href="#contact-section">Contact Us</a></li>
+            </ul>
+          </div>
+				</nav>
 			</header>
