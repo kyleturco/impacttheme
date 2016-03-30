@@ -296,6 +296,10 @@ mobile. Make sure to double check these!
   margin-right: 2em;
 }
 
+.services-content {
+  height: 20em;
+}
+
 .services-boxes {
   margin-bottom: 3em;
 }
@@ -303,7 +307,6 @@ mobile. Make sure to double check these!
 #home-services-content {
   max-width: 900px;
   margin: 0 auto;
-  border-bottom: 1px solid $gray;
 }
 
 // About section

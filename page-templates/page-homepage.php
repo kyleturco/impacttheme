@@ -100,12 +100,12 @@ Template Name: Homepage
           </div>
         </div>
       </div>
-    </div>
-    <div id="additional-services">
-      <h3 class="service-1 col-md-4">Consumer Engagement</h3>
-      <h3 class="service-2 col-md-4">Consulting Services</h3>
-      <h3 class="service-3 col-md-4">Retail Development</h3>
-      <div class="clearfix"></div>
+      <div id="additional-services">
+        <h3 class="service-1 col-md-4">Consumer Engagement</h3>
+        <h3 class="service-2 col-md-4">Consulting Services</h3>
+        <h3 class="service-3 col-md-4">Retail Development</h3>
+        <div class="clearfix"></div>
+      </div>
     </div>
   </div>
 </div>

@@ -397,18 +397,22 @@ mobile. Make sure to double check these!
 }
 
 /* line 299, ../scss/breakpoints/_768up.scss */
+.services-content {
+  height: 20em;
+}
+
+/* line 303, ../scss/breakpoints/_768up.scss */
 .services-boxes {
   margin-bottom: 3em;
 }
 
-/* line 303, ../scss/breakpoints/_768up.scss */
+/* line 307, ../scss/breakpoints/_768up.scss */
 #home-services-content {
   max-width: 900px;
   margin: 0 auto;
-  border-bottom: 1px solid #eaedf2;
 }
 
-/* line 311, ../scss/breakpoints/_768up.scss */
+/* line 314, ../scss/breakpoints/_768up.scss */
 #about-section .paragraph-2 {
   padding-left: 1em;
 }

@@ -1006,7 +1006,7 @@ SPECIFIC PAGE TEMPLATES
 
 .services-boxes {
   .active {
-    border-bottom: 7px solid $collide-yellow;
+
   }
 }
 
@@ -1017,14 +1017,15 @@ SPECIFIC PAGE TEMPLATES
 
 #additional-services {
   text-align: center;
-  padding: 3em 0em;
+  padding: 4em 0em 0em;
+  border-top: 1px solid $gray;
   h3 {
     color: $collide-blue;
     font-weight: 700;
   }
   .service-1,
   .service-2 {
-    border-right: 1px solid $collide-blue;
+    border-right: 2px solid $gray;
   }
 }
 
