@@ -846,19 +846,9 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
+	background-color: $white;
 	color: $light-gray;
 }
-
-	/*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
 	.footer-links {
 
 		ul {
@@ -909,13 +899,16 @@ GLOBAL CUSTOM STYLES
 .btn-primary {
   color: $white;
   background-color: $orange;
-  font-size: 1.2em;
-  padding: 0.4em 0.8em;
   font-family: $robotoSlab;
   text-transform: uppercase;
   border: none;
   border-radius: 0px;
   text-align: center;
+  margin: 1.5em auto 0em;
+  max-width: 13em;
+  font-weight: 700;
+  font-size: 1.3em;
+  padding: 0.6em 0.8em 0.7em;
   &:hover {
     background-color: lighten($orange, 10%);
   }
@@ -970,14 +963,6 @@ SPECIFIC PAGE TEMPLATES
   &:hover {
     text-decoration: none;
   }
-}
-
-#home-hero-btn {
-  margin: 1.5em auto 0em;
-  max-width: 13em;
-  font-weight: 700;
-  font-size: 1.3em;
-  padding: 0.6em 0.8em 0.7em;
 }
 
 // Services section styles
@@ -1052,6 +1037,17 @@ SPECIFIC PAGE TEMPLATES
 // Contact section
 #contact-section {
   background: $collide-blue;
+}
+
+// form styles
+.wpcf7-form {
+  p {
+    color: $white;
+  }
+  input,
+  textarea {
+    border-radius: 0px;
+  }
 }
 
 .icon-section {
