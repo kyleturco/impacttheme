@@ -685,6 +685,7 @@ GLOBAL CUSTOM STYLES
 .header-underline {
   border-bottom: 3px solid $collide-yellow;
   display: inline-block;
+  margin-top: 0em;
 }
 
 .inner-content {
@@ -737,7 +738,7 @@ SPECIFIC PAGE TEMPLATES
 
 .home-hero-width {
   text-align: center;
-  max-width: 35em;
+  max-width: 42em;
   margin: 0 auto;
 }
 
@@ -763,9 +764,18 @@ SPECIFIC PAGE TEMPLATES
 }
 
 .btn-link {
+  display: block;
+  max-width: 13em;
   text-decoration: none;
   &:hover {
     text-decoration: none;
+  }
+}
+
+#home-hero-btn {
+  padding: 0.6em 0.6em 0.7em 0.8em;
+  .fa {
+    padding-left: 0.3em;
   }
 }
 
@@ -812,7 +822,7 @@ SPECIFIC PAGE TEMPLATES
   }
   .services-text {
     display: none;
-    padding: 1.5em;
+    padding: 2em;
   }
   h2 {
     font-size: 1.4em;
@@ -827,8 +837,8 @@ SPECIFIC PAGE TEMPLATES
   }
   .plus-icon {
     position: absolute;
-    right: 0.7em;
-    top: 0em;
+    right: 0;
+    top: 0;
     font-size: 2em;
   }
 }
@@ -859,6 +869,10 @@ SPECIFIC PAGE TEMPLATES
   .paragraph-2 {
     padding-left: 0em;
   }
+}
+
+#about-subhead {
+  margin-bottom: 1em;
 }
 
 // Team section

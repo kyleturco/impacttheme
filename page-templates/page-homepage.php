@@ -12,7 +12,7 @@ Template Name: Homepage
       <div class="logo-circle">
         <img src="<?php echo get_template_directory_uri(); ?>/library/images/collide-circle-logo.png">
       </div>
-      <h1 class="text-white">Slogan or value statement goes here</h1>
+      <h1 class="text-white">Elevating media that inspires a deeper relationship with Christ</h1>
       <p id="home-hero-description" class="text-white">
         Collide Media Group is a Nashville-based marketing company that specializes in faith based,
         family entertainment
@@ -200,8 +200,8 @@ Template Name: Homepage
 <div id="about-section">
   <div class="container">
     <div class="inner-content">
-      <h1 class="text-white header-underline">About</h1>
-      <p class="text-white p-subhead">
+      <h1 id="about-header" class="text-white header-underline">About</h1>
+      <p id="about-subhead" class="text-white about-subhead p-subhead">
         <b>Collide Media Group is a marketing agency whose mission is to elevate media that inspires a
         deeper relationship with Christ.</b>
       </p>
