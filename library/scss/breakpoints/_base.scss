@@ -148,12 +148,17 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-#logo {
-	margin: 0.75em 0;
-
+.site-logo {
+	margin: 1em 1em 0em;
+  height: 40px;
+  width: auto;
 	a {
 		color: $white;
 	}
+}
+
+.navbar-default {
+  background: rgba(248, 248, 248, 0.95);
 }
 
 .navbar-default .navbar-nav>li>a.header-link {

@@ -58,7 +58,9 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" class="header-link" href="#">Collide</a>
+            <a href="<?php echo home_url(); ?>" rel="nofollow">
+              <img class="site-logo h3" itemscope itemtype="http://schema.org/Organization" src="<?php echo get_template_directory_uri(); ?>/library/images/collide-logo-white.png" width="300px">
+            </a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav navbar-right" role="tablist" id="myTab">
