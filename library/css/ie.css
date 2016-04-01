@@ -371,37 +371,57 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
-/* line 185, ../scss/breakpoints/_768up.scss */
+/* line 186, ../scss/breakpoints/_768up.scss */
+#home-hero-content h1 {
+  font-size: 2.75em;
+}
+
+/* line 192, ../scss/breakpoints/_768up.scss */
 .services-box {
   width: 30.5%;
   padding: 2em 2.5em 1em 2.5em;
 }
 
-/* line 190, ../scss/breakpoints/_768up.scss */
+/* line 197, ../scss/breakpoints/_768up.scss */
 #camp-mgmt-box,
 #brand-dev-box {
   margin-right: 2em;
 }
 
-/* line 195, ../scss/breakpoints/_768up.scss */
+/* line 202, ../scss/breakpoints/_768up.scss */
 .services-content {
   height: 20em;
 }
 
-/* line 199, ../scss/breakpoints/_768up.scss */
+/* line 206, ../scss/breakpoints/_768up.scss */
 .services-boxes {
   margin-bottom: 3em;
 }
 
-/* line 203, ../scss/breakpoints/_768up.scss */
+/* line 210, ../scss/breakpoints/_768up.scss */
 #home-services-content {
   max-width: 900px;
   margin: 0 auto;
 }
 
-/* line 210, ../scss/breakpoints/_768up.scss */
+/* line 215, ../scss/breakpoints/_768up.scss */
+#home-services-section {
+  display: block;
+}
+
+/* line 219, ../scss/breakpoints/_768up.scss */
+#home-services-section-mobile {
+  display: none;
+}
+
+/* line 225, ../scss/breakpoints/_768up.scss */
 #about-section .paragraph-2 {
   padding-left: 1em;
+}
+
+/* line 231, ../scss/breakpoints/_768up.scss */
+.team-member {
+  width: 33%;
 }
 
 /******************************************************************

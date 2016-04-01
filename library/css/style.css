@@ -2084,7 +2084,7 @@ SPECIFIC PAGE TEMPLATES
 }
 /* line 755, ../scss/breakpoints/_base.scss */
 #home-hero-content h1 {
-  font-size: 2.75em;
+  font-size: 2em;
   margin-bottom: 0.25em;
 }
 
@@ -2135,75 +2135,113 @@ SPECIFIC PAGE TEMPLATES
   display: none;
 }
 
-/* line 807, ../scss/breakpoints/_base.scss */
+/* line 808, ../scss/breakpoints/_base.scss */
+#home-services-section-mobile .panel {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
+/* line 813, ../scss/breakpoints/_base.scss */
+#home-services-section-mobile .services-text {
+  display: none;
+  padding: 1.5em;
+}
+/* line 817, ../scss/breakpoints/_base.scss */
+#home-services-section-mobile h2 {
+  font-size: 1.4em;
+  color: #0075c8;
+  margin: 0.6em 0em;
+}
+/* line 821, ../scss/breakpoints/_base.scss */
+#home-services-section-mobile h2:hover {
+  text-decoration: none;
+}
+/* line 825, ../scss/breakpoints/_base.scss */
+#home-services-section-mobile .panel-title {
+  position: relative;
+}
+/* line 828, ../scss/breakpoints/_base.scss */
+#home-services-section-mobile .plus-icon {
+  position: absolute;
+  right: 0.7em;
+  top: 0em;
+  font-size: 2em;
+}
+
+/* line 836, ../scss/breakpoints/_base.scss */
+#home-services-section {
+  display: none;
+}
+
+/* line 840, ../scss/breakpoints/_base.scss */
 #additional-services {
   text-align: center;
   padding: 4em 0em 0em;
   border-top: 1px solid #eaedf2;
 }
-/* line 811, ../scss/breakpoints/_base.scss */
+/* line 844, ../scss/breakpoints/_base.scss */
 #additional-services h3 {
   color: #0075c8;
   font-weight: 700;
   font-size: 1.2em;
 }
-/* line 816, ../scss/breakpoints/_base.scss */
+/* line 849, ../scss/breakpoints/_base.scss */
 #additional-services .service-1,
 #additional-services .service-2 {
   border-right: 2px solid #eaedf2;
 }
 
-/* line 823, ../scss/breakpoints/_base.scss */
+/* line 856, ../scss/breakpoints/_base.scss */
 #about-section {
   background: #0075c8;
 }
-/* line 825, ../scss/breakpoints/_base.scss */
+/* line 858, ../scss/breakpoints/_base.scss */
 #about-section .paragraph-1,
 #about-section .paragraph-2 {
   padding-left: 0em;
 }
 
-/* line 832, ../scss/breakpoints/_base.scss */
+/* line 865, ../scss/breakpoints/_base.scss */
 .team-section-content {
   padding: 4em 0em;
 }
 
-/* line 836, ../scss/breakpoints/_base.scss */
+/* line 869, ../scss/breakpoints/_base.scss */
 .team-member {
-  width: 33%;
+  width: 100%;
   display: block;
   float: left;
 }
 
-/* line 843, ../scss/breakpoints/_base.scss */
+/* line 876, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 849, ../scss/breakpoints/_base.scss */
+/* line 882, ../scss/breakpoints/_base.scss */
 .wpcf7-form p {
   color: #fff;
 }
-/* line 852, ../scss/breakpoints/_base.scss */
+/* line 885, ../scss/breakpoints/_base.scss */
 .wpcf7-form input,
 .wpcf7-form textarea {
   border-radius: 0px;
 }
 
-/* line 859, ../scss/breakpoints/_base.scss */
+/* line 892, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
   margin: 0em 0em 0em 1.2em;
 }
-/* line 864, ../scss/breakpoints/_base.scss */
+/* line 897, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
   float: left;
 }
 
-/* line 871, ../scss/breakpoints/_base.scss */
+/* line 904, ../scss/breakpoints/_base.scss */
 .icon-1,
 .icon-2,
 .icon-3 {
@@ -2470,37 +2508,57 @@ you can add resource intensive styles.
   }
 
   /* end .footer-links */
-  /* line 185, ../scss/breakpoints/_768up.scss */
+  /* line 186, ../scss/breakpoints/_768up.scss */
+  #home-hero-content h1 {
+    font-size: 2.75em;
+  }
+
+  /* line 192, ../scss/breakpoints/_768up.scss */
   .services-box {
     width: 30.5%;
     padding: 2em 2.5em 1em 2.5em;
   }
 
-  /* line 190, ../scss/breakpoints/_768up.scss */
+  /* line 197, ../scss/breakpoints/_768up.scss */
   #camp-mgmt-box,
   #brand-dev-box {
     margin-right: 2em;
   }
 
-  /* line 195, ../scss/breakpoints/_768up.scss */
+  /* line 202, ../scss/breakpoints/_768up.scss */
   .services-content {
     height: 20em;
   }
 
-  /* line 199, ../scss/breakpoints/_768up.scss */
+  /* line 206, ../scss/breakpoints/_768up.scss */
   .services-boxes {
     margin-bottom: 3em;
   }
 
-  /* line 203, ../scss/breakpoints/_768up.scss */
+  /* line 210, ../scss/breakpoints/_768up.scss */
   #home-services-content {
     max-width: 900px;
     margin: 0 auto;
   }
 
-  /* line 210, ../scss/breakpoints/_768up.scss */
+  /* line 215, ../scss/breakpoints/_768up.scss */
+  #home-services-section {
+    display: block;
+  }
+
+  /* line 219, ../scss/breakpoints/_768up.scss */
+  #home-services-section-mobile {
+    display: none;
+  }
+
+  /* line 225, ../scss/breakpoints/_768up.scss */
   #about-section .paragraph-2 {
     padding-left: 1em;
+  }
+
+  /* line 231, ../scss/breakpoints/_768up.scss */
+  .team-member {
+    width: 33%;
   }
 }
 /*********************

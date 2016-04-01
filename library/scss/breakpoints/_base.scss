@@ -753,7 +753,7 @@ SPECIFIC PAGE TEMPLATES
 #home-hero-content {
   padding: 4em 0em;
   h1 {
-    font-size: 2.75em;
+    font-size: 2em;
     margin-bottom: 0.25em;
   }
 }
@@ -804,6 +804,39 @@ SPECIFIC PAGE TEMPLATES
   display: none;
 }
 
+#home-services-section-mobile {
+  .panel {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border: none;
+  }
+  .services-text {
+    display: none;
+    padding: 1.5em;
+  }
+  h2 {
+    font-size: 1.4em;
+    color: $collide-blue;
+    margin: 0.6em 0em;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .panel-title {
+    position: relative;
+  }
+  .plus-icon {
+    position: absolute;
+    right: 0.7em;
+    top: 0em;
+    font-size: 2em;
+  }
+}
+
+#home-services-section {
+  display: none;
+}
+
 #additional-services {
   text-align: center;
   padding: 4em 0em 0em;
@@ -834,7 +867,7 @@ SPECIFIC PAGE TEMPLATES
 }
 
 .team-member {
-  width: 33%;
+  width: 100%;
   display: block;
   float: left;
 }

@@ -181,6 +181,13 @@ mobile. Make sure to double check these!
 	}
 } /* end .footer-links */
 
+// Hero section
+#home-hero-content {
+  h1 {
+    font-size: 2.75em;
+  }
+}
+
 // Services section
 .services-box {
   width: 30.5%;
@@ -205,9 +212,22 @@ mobile. Make sure to double check these!
   margin: 0 auto;
 }
 
+#home-services-section {
+  display: block;
+}
+
+#home-services-section-mobile {
+  display: none;
+}
+
 // About section
 #about-section {
   .paragraph-2 {
     padding-left: 1em;
   }
+}
+
+// Team section
+.team-member {
+  width: 33%;
 }

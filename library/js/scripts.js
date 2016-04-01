@@ -3,7 +3,6 @@ jQuery(document).ready(function($) {
   function init() {
     $('.btn-link').on('click', smoothScroll)
     $('.header-link').on('click', smoothScroll)
-    servicesShowHide()
     $(window).scroll(function(event) {
       changeHeaderStyles()
     })

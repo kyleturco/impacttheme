@@ -109,6 +109,94 @@ Template Name: Homepage
     </div>
   </div>
 </div>
+<div id="home-services-section-mobile">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <div class="container">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h2>Campaign Management</h2>
+            <i class="fa fa-plus-square-o plus-icon"></i>
+          </a>
+        </h4>
+      </div>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <div class="container">
+          <p>
+            Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
+            back together, we are able to set aside things that are not essential to your goals and mission.  In the
+            case of brand development, we are unique in three ways:
+          </p>
+          <h4>Our Faith</h4>
+          <p>
+            We believe that we have a Creator and everything was created, likewise, we look at someone with an
+            idea (or tons of ideas) or a brand, and know this came out of their life somewhere.
+          </p>
+
+          <h4>Our Experience</h4>
+          <p>
+            Collide has a long history of campaign management on behalf of ministries and brands.  Collide team
+            members have developed brands and quarterbacked campaigns.
+          </p>
+
+          <h4>Our Experience</h4>
+          <p>
+            A lot of what we do is create a differentiation, which comes with a deep understanding and working
+            knowledge of the market landscape.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <div class="container">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h2>Brand Development</h2>
+            <i class="fa fa-plus-square-o plus-icon"></i>
+          </a>
+        </h4>
+      </div>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <div class="container">
+          <p>
+            Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
+            back together, we are able to set aside things that are not essential to your goals and mission.  In the
+            case of brand development, we are unique in three ways:
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <div class="container">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h2>Strategic Partnerships</h2>
+            <i class="fa fa-plus-square-o plus-icon"></i>
+          </a>
+        </h4>
+      </div>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <div class="container">
+          <p>
+            Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
+            back together, we are able to set aside things that are not essential to your goals and mission.  In the
+            case of brand development, we are unique in three ways:
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="about-section">
   <div class="container">
     <div class="inner-content">
@@ -161,7 +249,7 @@ Template Name: Homepage
             $email = get_field('email');
         ?>
         <div class="team-member">
-          <a href=""><?php the_post_thumbnail('large'); ?></a>
+          <a href=""><?php the_post_thumbnail('full'); ?></a>
           <h3><?php echo $member_name; ?></h3>
           <p><?php echo $job_title; ?></p>
         </div>
