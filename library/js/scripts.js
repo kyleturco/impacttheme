@@ -58,12 +58,20 @@ jQuery(document).ready(function($) {
     var $navBar = $('#site-nav')
     var headerHeight = $('.navbar-default').height()
     var $navLink = $('.navbar-default .navbar-nav>li>a.header-link')
-    if (y > headerHeight) {
-      $navBar.removeClass('navbar-transparent')
-      $navLink.css('color', '#0075c8')
-    } if (y < headerHeight) {
-      $navBar.addClass('navbar-transparent')
-      $navLink.css('color', '#ffffff')
+    var $blueLogo = $('.logo-blue')
+    var $whiteLogo = $('.logo-white')
+    if ($(window).width() > 768) {
+      if (y > headerHeight) {
+        $navBar.removeClass('navbar-transparent')
+        $navLink.css('color', '#0075c8')
+        $blueLogo.css('display', 'block')
+        $whiteLogo.css('display', 'none')
+      } if (y < headerHeight) {
+        $navBar.addClass('navbar-transparent')
+        $navLink.css('color', '#ffffff')
+        $blueLogo.css('display', 'none')
+        $whiteLogo.css('display', 'block')
+      }
     }
   }
 

@@ -59,7 +59,8 @@
               <span class="icon-bar"></span>
             </button>
             <a href="<?php echo home_url(); ?>" rel="nofollow">
-              <img class="site-logo h3" itemscope itemtype="http://schema.org/Organization" src="<?php echo get_template_directory_uri(); ?>/library/images/collide-logo-white.png" width="300px">
+              <img class="site-logo logo-white h3" itemscope itemtype="http://schema.org/Organization" src="<?php echo get_template_directory_uri(); ?>/library/images/collide-logo-white.png" width="300px">
+              <img class="site-logo logo-blue h3" itemscope itemtype="http://schema.org/Organization" src="<?php echo get_template_directory_uri(); ?>/library/images/collide-logo-blue.png" width="300px">
             </a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">

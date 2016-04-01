@@ -149,12 +149,20 @@ HEADER STYLES
 *********************/
 
 .site-logo {
-	margin: 1em 1em 0em;
+	margin: 0.4em 1em 0em;
   height: 40px;
   width: auto;
 	a {
 		color: $white;
 	}
+}
+
+.logo-white {
+  display: none;
+}
+
+.logo-blue {
+  display: block;
 }
 
 .navbar-default {
