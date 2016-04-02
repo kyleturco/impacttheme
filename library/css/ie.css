@@ -421,7 +421,26 @@ mobile. Make sure to double check these!
 
 /* line 231, ../scss/breakpoints/_768up.scss */
 .team-member {
-  width: 33%;
+  width: 30%;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+/* line 238, ../scss/breakpoints/_768up.scss */
+.team-member-overlay .team-member-text {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+/* line 243, ../scss/breakpoints/_768up.scss */
+.team-member-overlay .member-name {
+  color: #fff;
+  font-size: 1.6em;
+}
+/* line 247, ../scss/breakpoints/_768up.scss */
+.team-member-overlay .member-job-title {
+  color: #ffde17;
+  font-size: 1em;
 }
 
 /******************************************************************

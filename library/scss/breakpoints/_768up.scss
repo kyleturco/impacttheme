@@ -229,5 +229,23 @@ mobile. Make sure to double check these!
 
 // Team section
 .team-member {
-  width: 33%;
+  width: 30%;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.team-member-overlay {
+  .team-member-text {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+  }
+  .member-name {
+    color: $white;
+    font-size: 1.6em;
+  }
+  .member-job-title {
+    color: $collide-yellow;
+    font-size: 1em;
+  }
 }

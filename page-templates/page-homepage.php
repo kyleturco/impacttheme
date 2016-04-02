@@ -250,8 +250,12 @@ Template Name: Homepage
         ?>
         <div class="team-member">
           <a href=""><?php the_post_thumbnail('full'); ?></a>
-          <h3><?php echo $member_name; ?></h3>
-          <p><?php echo $job_title; ?></p>
+          <div class="team-member-overlay">
+            <div class="team-member-text">
+              <h2 class="member-name"><?php echo $member_name; ?></h2>
+              <p class="member-job-title"><?php echo $job_title; ?></p>
+            </div>
+          </div>
         </div>
        <?php
             $i++;

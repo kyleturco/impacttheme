@@ -2228,37 +2228,74 @@ SPECIFIC PAGE TEMPLATES
   width: 100%;
   display: block;
   float: left;
+  position: relative;
+}
+/* line 888, ../scss/breakpoints/_base.scss */
+.team-member img {
+  width: 100%;
+  height: 100%;
+}
+/* line 893, ../scss/breakpoints/_base.scss */
+.team-member:hover .team-member-overlay {
+  display: block;
 }
 
-/* line 890, ../scss/breakpoints/_base.scss */
+/* line 899, ../scss/breakpoints/_base.scss */
+.team-member-overlay {
+  position: absolute;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 906, ../scss/breakpoints/_base.scss */
+.team-member-overlay .team-member-text {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+/* line 911, ../scss/breakpoints/_base.scss */
+.team-member-overlay .member-name {
+  color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 0em;
+}
+/* line 916, ../scss/breakpoints/_base.scss */
+.team-member-overlay .member-job-title {
+  color: #ffde17;
+  font-size: 0.75em;
+}
+
+/* line 923, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 896, ../scss/breakpoints/_base.scss */
+/* line 929, ../scss/breakpoints/_base.scss */
 .wpcf7-form p {
   color: #fff;
 }
-/* line 899, ../scss/breakpoints/_base.scss */
+/* line 932, ../scss/breakpoints/_base.scss */
 .wpcf7-form input,
 .wpcf7-form textarea {
   border-radius: 0px;
 }
 
-/* line 906, ../scss/breakpoints/_base.scss */
+/* line 939, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
   margin: 0em 0em 0em 1.2em;
 }
-/* line 911, ../scss/breakpoints/_base.scss */
+/* line 944, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
   float: left;
 }
 
-/* line 918, ../scss/breakpoints/_base.scss */
+/* line 951, ../scss/breakpoints/_base.scss */
 .icon-1,
 .icon-2,
 .icon-3 {
@@ -2575,7 +2612,26 @@ you can add resource intensive styles.
 
   /* line 231, ../scss/breakpoints/_768up.scss */
   .team-member {
-    width: 33%;
+    width: 30%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  /* line 238, ../scss/breakpoints/_768up.scss */
+  .team-member-overlay .team-member-text {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+  }
+  /* line 243, ../scss/breakpoints/_768up.scss */
+  .team-member-overlay .member-name {
+    color: #fff;
+    font-size: 1.6em;
+  }
+  /* line 247, ../scss/breakpoints/_768up.scss */
+  .team-member-overlay .member-job-title {
+    color: #ffde17;
+    font-size: 1em;
   }
 }
 /*********************
