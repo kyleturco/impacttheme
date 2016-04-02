@@ -2033,21 +2033,20 @@ GLOBAL CUSTOM STYLES
   border-radius: 0px;
   text-align: center;
   margin: 1.5em auto 0em;
-  max-width: 13em;
   font-weight: 700;
   font-size: 1.3em;
   padding: 0.6em 0.8em 0.7em;
 }
-/* line 717, ../scss/breakpoints/_base.scss */
+/* line 716, ../scss/breakpoints/_base.scss */
 .btn-primary:hover {
   background-color: #ff9832;
 }
 
-/* line 722, ../scss/breakpoints/_base.scss */
+/* line 721, ../scss/breakpoints/_base.scss */
 a.btn-primary {
   color: #fff;
 }
-/* line 724, ../scss/breakpoints/_base.scss */
+/* line 723, ../scss/breakpoints/_base.scss */
 a.btn-primary:hover {
   color: #fff;
 }
@@ -2055,49 +2054,50 @@ a.btn-primary:hover {
 /*********************
 SPECIFIC PAGE TEMPLATES
 *********************/
-/* line 734, ../scss/breakpoints/_base.scss */
+/* line 733, ../scss/breakpoints/_base.scss */
 #home-hero-section {
   background: url(../images/collide-hero-bkg.jpg) no-repeat;
   background-size: cover;
 }
 
-/* line 739, ../scss/breakpoints/_base.scss */
+/* line 738, ../scss/breakpoints/_base.scss */
 .home-hero-width {
   text-align: center;
   max-width: 42em;
   margin: 0 auto;
 }
 
-/* line 745, ../scss/breakpoints/_base.scss */
+/* line 744, ../scss/breakpoints/_base.scss */
 .logo-circle {
   max-width: 195px;
   display: block;
   margin: 0 auto;
 }
-/* line 749, ../scss/breakpoints/_base.scss */
+/* line 748, ../scss/breakpoints/_base.scss */
 .logo-circle img {
   width: 100%;
 }
 
-/* line 754, ../scss/breakpoints/_base.scss */
+/* line 753, ../scss/breakpoints/_base.scss */
 #home-hero-content {
   padding: 4em 0em;
 }
-/* line 756, ../scss/breakpoints/_base.scss */
+/* line 755, ../scss/breakpoints/_base.scss */
 #home-hero-content h1 {
   font-size: 2em;
   margin-bottom: 0.25em;
 }
 
-/* line 762, ../scss/breakpoints/_base.scss */
+/* line 761, ../scss/breakpoints/_base.scss */
 #home-hero-description {
   font-size: 1.2em;
 }
 
-/* line 766, ../scss/breakpoints/_base.scss */
+/* line 765, ../scss/breakpoints/_base.scss */
 .btn-link {
   display: block;
-  max-width: 13em;
+  max-width: 16em;
+  margin: 0 auto;
   text-decoration: none;
 }
 /* line 770, ../scss/breakpoints/_base.scss */
@@ -2229,18 +2229,20 @@ SPECIFIC PAGE TEMPLATES
   display: block;
   float: left;
   position: relative;
+  margin-bottom: 2.5%;
 }
-/* line 888, ../scss/breakpoints/_base.scss */
+/* line 889, ../scss/breakpoints/_base.scss */
 .team-member img {
   width: 100%;
   height: 100%;
 }
-/* line 893, ../scss/breakpoints/_base.scss */
+/* line 894, ../scss/breakpoints/_base.scss */
 .team-member:hover .team-member-overlay {
   display: block;
+  transition: 0.3s;
 }
 
-/* line 899, ../scss/breakpoints/_base.scss */
+/* line 901, ../scss/breakpoints/_base.scss */
 .team-member-overlay {
   position: absolute;
   display: none;
@@ -2249,53 +2251,53 @@ SPECIFIC PAGE TEMPLATES
   width: 100%;
   height: 100%;
 }
-/* line 906, ../scss/breakpoints/_base.scss */
+/* line 908, ../scss/breakpoints/_base.scss */
 .team-member-overlay .team-member-text {
   position: absolute;
   bottom: 1em;
   left: 1em;
 }
-/* line 911, ../scss/breakpoints/_base.scss */
+/* line 913, ../scss/breakpoints/_base.scss */
 .team-member-overlay .member-name {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.75em;
   margin-bottom: 0em;
 }
-/* line 916, ../scss/breakpoints/_base.scss */
+/* line 918, ../scss/breakpoints/_base.scss */
 .team-member-overlay .member-job-title {
   color: #ffde17;
-  font-size: 0.75em;
+  font-size: 1.2em;
 }
 
-/* line 923, ../scss/breakpoints/_base.scss */
+/* line 925, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 929, ../scss/breakpoints/_base.scss */
+/* line 931, ../scss/breakpoints/_base.scss */
 .wpcf7-form p {
   color: #fff;
 }
-/* line 932, ../scss/breakpoints/_base.scss */
+/* line 934, ../scss/breakpoints/_base.scss */
 .wpcf7-form input,
 .wpcf7-form textarea {
   border-radius: 0px;
 }
 
-/* line 939, ../scss/breakpoints/_base.scss */
+/* line 941, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
   margin: 0em 0em 0em 1.2em;
 }
-/* line 944, ../scss/breakpoints/_base.scss */
+/* line 946, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
   float: left;
 }
 
-/* line 951, ../scss/breakpoints/_base.scss */
+/* line 953, ../scss/breakpoints/_base.scss */
 .icon-1,
 .icon-2,
 .icon-3 {
