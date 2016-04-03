@@ -1,29 +1,14 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-
 				<div id="inner-footer" class="wrap cf">
-
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-    					'after' => '',                                  // after the menu
-    					'link_before' => '',                            // before each link
-    					'link_after' => '',                             // after each link
-    					'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
-
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
-
+            <ul class="list-inline">
+              <li class="menu-tab"><a class="header-link" href="#home-services-section">Services</a></li>
+              <li class="menu-tab"><a class="header-link" href="#about-section">About</a></li>
+              <li class="menu-tab"><a class="header-link" href="#team-section">Team</a></li>
+              <li class="menu-tab"><a class="header-link" href="#contact-section">Contact Us</a></li>
+            </ul>
+					<h4>&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</h4>
 				</div>
-
 			</footer>
-
 		</div>
 
 		<?php // all js scripts are loaded in library/bones.php ?>
