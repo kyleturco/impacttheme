@@ -129,7 +129,8 @@ HEADER STYLES
   background: rgba(248, 248, 248, 0.95);
 }
 
-.navbar-default .navbar-nav>li>a.header-link {
+.navbar-default .navbar-nav>li>a.header-link,
+.navbar-default .navbar-nav>li>a.header-link-inner {
   font-family: $robotoSlab;
   color: $collide-blue;
   font-weight: 400;
