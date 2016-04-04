@@ -3,6 +3,15 @@
 Template Name: Single Team Member
 */
 ?>
+
+<?php
+  $member_name = get_the_title();
+  $image_url = get_field('team_member_image', $post->ID)['url'];
+  $job_title = get_field('job_title');
+  $email = get_field('email');
+  $permalink = get_permalink();
+?>
+
 <?php get_header('site'); ?>
 
 <div id="content">
@@ -14,6 +23,7 @@ Template Name: Single Team Member
             <h1 class="entry-title single-title" itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
           </header>
           <section class="entry-content cf" itemprop="articleBody">
+            <div><?php the_post_thumbnail('full'); ?></div>
             <?php
               the_content();
             ?>

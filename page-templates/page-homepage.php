@@ -247,15 +247,18 @@ Template Name: Homepage
             $image_url = get_field('team_member_image', $post->ID)['url'];
             $job_title = get_field('job_title');
             $email = get_field('email');
+            $permalink = get_permalink();
         ?>
         <div class="team-member">
-          <a href=""><?php the_post_thumbnail('full'); ?></a>
+          <div><?php the_post_thumbnail('full'); ?></div>
+          <a href="<?php echo $permalink; ?>" target="_blank">
           <div class="team-member-overlay">
             <div class="team-member-text">
               <h2 class="member-name"><?php echo $member_name; ?></h2>
               <p class="member-job-title"><?php echo $job_title; ?></p>
             </div>
           </div>
+          </a>
         </div>
        <?php
             $i++;
