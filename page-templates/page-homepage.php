@@ -291,7 +291,7 @@ Template Name: Homepage
           </div>
         </div>
       </div>
-      <div class="col-md-8">
+      <div class="form-container col-md-8 no-left-pad">
         <?php echo do_shortcode( '[contact-form-7 id="7" title="Contact form 1"]' ); ?>
       </div>
       <div class="clearfix"></div>

@@ -2305,6 +2305,11 @@ SPECIFIC PAGE TEMPLATES
   padding-bottom: 2.5em;
 }
 
+/* line 907, ../scss/breakpoints/_base.scss */
+.form-container {
+  margin-top: 1em;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2655,6 +2660,12 @@ you can add resource intensive styles.
   /* line 265, ../scss/breakpoints/_768up.scss */
   #team-member-content {
     padding: 6em 0em;
+  }
+
+  /* line 270, ../scss/breakpoints/_768up.scss */
+  .form-container {
+    margin-top: 0em;
+    padding-left: 4.5em;
   }
 }
 /*********************
