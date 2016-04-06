@@ -27,15 +27,21 @@ Template Name: Single Team Member
       <main id="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-            <h1 class="entry-title single-title member-name" itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
-            <h3 class="member-title"><?php echo $job_title; ?></h3>
-            <a class="mail-link" href="mailto:<?php echo $email; ?>"><i class="fa fa-envelope-o"></i><?php echo $email; ?></a>
-            <hr>
-            <section class="team-member-entry entry-content cf" itemprop="articleBody">
-              <?php
-                the_content();
-              ?>
-            </section>
+            <div class="col-md-4">
+              <h1 class="entry-title single-title member-name" itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
+              <h3 class="member-title"><?php echo $job_title; ?></h3>
+              <?php if (!empty($email)) { ?>
+                <a class="mail-link" href="mailto:<?php echo $email; ?>"><i class="fa fa-envelope-o"></i><?php echo $email; ?></a>
+              <?php } ?>
+            </div>
+            <div class="col-md-8">
+              <section class="team-member-entry entry-content cf" itemprop="articleBody">
+                <?php
+                  the_content();
+                ?>
+              </section>
+            </div>
+            <div class="clearfix"></div>
           </article>
 
         <?php endwhile; ?>

@@ -64,10 +64,10 @@
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav navbar-right" role="tablist" id="myTab">
-              <li class="menu-tab"><a class="header-link-inner" href="#home-services-section">Services</a></li>
-              <li class="menu-tab"><a class="header-link-inner" href="#about-section">About</a></li>
-              <li class="menu-tab"><a class="header-link-inner" href="#team-section">Team</a></li>
-              <li class="menu-tab"><a class="header-link-inner" href="#contact-section">Contact Us</a></li>
+              <li class="menu-tab"><a class="header-link-inner" href="<?php echo home_url(); ?>/#home-services-section">Services</a></li>
+              <li class="menu-tab"><a class="header-link-inner" href="<?php echo home_url(); ?>/#about-section">About</a></li>
+              <li class="menu-tab"><a class="header-link-inner" href="<?php echo home_url(); ?>/#team-section">Team</a></li>
+              <li class="menu-tab"><a class="header-link-inner" href="<?php echo home_url(); ?>/#contact-section">Contact Us</a></li>
             </ul>
           </div>
         </nav>

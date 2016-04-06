@@ -2649,12 +2649,12 @@ you can add resource intensive styles.
 
   /* line 261, ../scss/breakpoints/_768up.scss */
   .team-member-entry {
-    padding-top: 1.5em;
+    padding-top: 0.5em;
   }
 
   /* line 265, ../scss/breakpoints/_768up.scss */
   #team-member-content {
-    padding: 4em 0em;
+    padding: 6em 0em;
   }
 }
 /*********************
