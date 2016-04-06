@@ -569,6 +569,13 @@ FOOTER STYLES
 	background-color: #353535;
   padding: 1.5em;
   color: $light-gray;
+  a {
+    color: $light-gray;
+    &:hover {
+      color: $collide-yellow;
+      text-decoration: none;
+    }
+  }
 }
 
 	.copyright {}
@@ -681,6 +688,7 @@ SPECIFIC PAGE TEMPLATES
 
 #home-hero-btn {
   padding: 0.6em 0.6em 0.7em 0.8em;
+  margin-top: 1.5em;
   .fa {
     padding-left: 0.3em;
   }
@@ -853,6 +861,13 @@ SPECIFIC PAGE TEMPLATES
   margin-top: 0.2em;
   font-size: 1.5em;
 }
+
+.mail-link {
+  .fa {
+    padding-right: 0.35em;
+  }
+}
+
 // Contact section
 #contact-section {
   background: $collide-blue;

@@ -29,6 +29,7 @@ Template Name: Single Team Member
           <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
             <h1 class="entry-title single-title member-name" itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
             <h3 class="member-title"><?php echo $job_title; ?></h3>
+            <a class="mail-link" href="mailto:<?php echo $email; ?>"><i class="fa fa-envelope-o"></i><?php echo $email; ?></a>
             <hr>
             <section class="team-member-entry entry-content cf" itemprop="articleBody">
               <?php

@@ -6,7 +6,7 @@
               <li class="menu-tab"><a class="header-link" href="#team-section">Team</a></li>
               <li class="menu-tab"><a class="header-link" href="#contact-section">Contact Us</a></li>
             </ul>
-					<h4>&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</h4>
+					<h6>&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?></h4>
 				</div>
 			</footer>
 		</div>
