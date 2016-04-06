@@ -2221,64 +2221,69 @@ SPECIFIC PAGE TEMPLATES
 }
 
 /* line 832, ../scss/breakpoints/_base.scss */
-.team-member-info {
-  padding: 17em;
+#header-section {
+  margin-top: 50px;
 }
 
 /* line 836, ../scss/breakpoints/_base.scss */
-.team-member-entry {
-  padding-top: 1.5em;
+.team-member-info {
+  padding: 9em;
 }
 
 /* line 840, ../scss/breakpoints/_base.scss */
-#team-member-content {
-  padding: 4em 0em;
+.team-member-entry {
+  padding-top: 1em;
 }
 
 /* line 844, ../scss/breakpoints/_base.scss */
+#team-member-content {
+  padding: 2em 0em;
+}
+
+/* line 848, ../scss/breakpoints/_base.scss */
 .member-name {
   color: #0075c8;
 }
 
-/* line 848, ../scss/breakpoints/_base.scss */
+/* line 852, ../scss/breakpoints/_base.scss */
 .member-title {
   margin-top: 0.2em;
   font-size: 1.5em;
 }
 
-/* line 853, ../scss/breakpoints/_base.scss */
+/* line 857, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 859, ../scss/breakpoints/_base.scss */
+/* line 863, ../scss/breakpoints/_base.scss */
 .wpcf7-form p {
   color: #fff;
 }
-/* line 862, ../scss/breakpoints/_base.scss */
+/* line 866, ../scss/breakpoints/_base.scss */
 .wpcf7-form input,
 .wpcf7-form textarea {
   border-radius: 0px;
 }
 
-/* line 868, ../scss/breakpoints/_base.scss */
+/* line 872, ../scss/breakpoints/_base.scss */
 .icon-section {
   margin-top: 1.5em;
 }
-/* line 870, ../scss/breakpoints/_base.scss */
+/* line 874, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
   margin: 0em 0em 0em 1.2em;
 }
-/* line 875, ../scss/breakpoints/_base.scss */
+/* line 879, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
   float: left;
 }
 
-/* line 882, ../scss/breakpoints/_base.scss */
+/* line 886, ../scss/breakpoints/_base.scss */
 .icon-1,
 .icon-2,
 .icon-3 {
@@ -2616,6 +2621,26 @@ you can add resource intensive styles.
     color: #ffde17;
     font-size: 1em;
   }
+
+  /* line 253, ../scss/breakpoints/_768up.scss */
+  #header-section {
+    margin-top: 0px;
+  }
+
+  /* line 257, ../scss/breakpoints/_768up.scss */
+  .team-member-info {
+    padding: 17em;
+  }
+
+  /* line 261, ../scss/breakpoints/_768up.scss */
+  .team-member-entry {
+    padding-top: 1.5em;
+  }
+
+  /* line 265, ../scss/breakpoints/_768up.scss */
+  #team-member-content {
+    padding: 4em 0em;
+  }
 }
 /*********************
 DESKTOP
@@ -2644,16 +2669,10 @@ LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
-  /******************************************************************
-  Site Name: 
-  Author: 
-  
-  Stylesheet: Super Large Monitor Stylesheet
-  
-  You can add some advanced styles here if you like. This kicks in
-  on larger screens.
-  
-  ******************************************************************/
+  /* line 1, ../scss/breakpoints/_1240up.scss */
+  .team-member-info {
+    padding: 20em;
+  }
 }
 /*********************
 RETINA (2x RESOLUTION DEVICES)

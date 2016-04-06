@@ -443,6 +443,26 @@ mobile. Make sure to double check these!
   font-size: 1em;
 }
 
+/* line 253, ../scss/breakpoints/_768up.scss */
+#header-section {
+  margin-top: 0px;
+}
+
+/* line 257, ../scss/breakpoints/_768up.scss */
+.team-member-info {
+  padding: 17em;
+}
+
+/* line 261, ../scss/breakpoints/_768up.scss */
+.team-member-entry {
+  padding-top: 1.5em;
+}
+
+/* line 265, ../scss/breakpoints/_768up.scss */
+#team-member-content {
+  padding: 4em 0em;
+}
+
 /******************************************************************
 Site Name:
 Author:
