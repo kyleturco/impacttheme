@@ -218,18 +218,13 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 1.5em;
+	margin-top: 6.5em;
 }
 
 		.hentry {
 			background-color: $white;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
-
-			header {
-				border-bottom: 1px solid $light-gray;
-				padding: 1.5em;
-			}
 
 			footer {
 				padding: 1.5em;
@@ -263,27 +258,6 @@ POSTS & CONTENT STYLES
 
 			p {
 				margin: 0 0 1.5em;
-			}
-
-
-			ul, ol, table, dl {}
-
-			ul, ol {
-
-				li {}
-
-			}
-
-			ul {
-
-				li {}
-
-			}
-
-			ol {
-
-				li {}
-
 			}
 
 			table {
@@ -824,6 +798,7 @@ SPECIFIC PAGE TEMPLATES
     height: 100%;
   }
   &:hover {
+    cursor: pointer;
     .team-member-overlay {
       display: block;
       transition: 0.3s;
@@ -854,6 +829,26 @@ SPECIFIC PAGE TEMPLATES
   }
 }
 
+.team-member-info {
+  padding: 17em;
+}
+
+.team-member-entry {
+  padding-top: 1.5em;
+}
+
+#team-member-content {
+  padding: 4em 0em;
+}
+
+.member-name {
+  color: $collide-blue;
+}
+
+.member-title {
+  margin-top: 0.2em;
+  font-size: 1.5em;
+}
 // Contact section
 #contact-section {
   background: $collide-blue;
