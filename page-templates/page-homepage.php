@@ -287,11 +287,11 @@ Template Name: Homepage
           </div>
           <div class="clearfix"></div>
           <div class="icon-2">
-            <i class="fa fa-facebook-square text-white"></i><h4 class="contact-item text-white">Facebook</h4>
+            <i class="fa fa-facebook-square text-white"></i><a href="https://www.facebook.com/collidemg" target="_blank"><h4 class="contact-item text-white">Facebook</h4></a>
           </div>
           <div class="clearfix"></div>
           <div class="icon-3">
-            <i class="fa fa-twitter-square text-white"></i><h4 class="contact-item text-white">@collide_mg</h4>
+            <i class="fa fa-twitter-square text-white"></i><a href="https://twitter.com/collide_mg" target="_blank"><h4 class="contact-item text-white">@collide_mg</h4></a>
           </div>
         </div>
       </div>
