@@ -65,7 +65,7 @@ Template Name: Homepage
             <div class="col-md-4 quality-item no-left-pad">
               <h4>Our Experience</h4>
               <p>
-                Collide has a long history of campaign management on behalf of ministries and brands.  Collide team
+                Collide Media Group has a long history of campaign management on behalf of ministries and brands.  Collide team
                 members have developed brands and quarterbacked campaigns.
               </p>
             </div>
@@ -82,13 +82,7 @@ Template Name: Homepage
         <div class="content-box" id="brand-dev">
           <div class="brand-dev-content">
             <p>
-              At the center of every project, there are core elements that comprise the heart and driving force behind
-              a consumer experience.  At Collide, we identify those foundational themes and help identify those
-              organizations, ministries, para-church denominations and networks that have a similar drive and focus.
-              By identifying partners with a strong “mission match” that ties the organization to the project, we are
-              able to bring both parties together to achieve true “win-win partnerships”.  With decades of experience
-              in the marketplace, we have developed strategic partnerships for some of the most successful films and
-              brands in the Christian space.
+              Description coming soon!
             </p>
           </div>
         </div>
@@ -96,7 +90,7 @@ Template Name: Homepage
           <div class="strat-part-content">
             <p>
               At the center of every project, there are core elements that comprise the heart and driving force behind
-              a consumer experience.  At Collide, we identify those foundational themes and help identify those
+              a consumer experience.  At Collide Media Group, we identify those foundational themes and help identify those
               organizations, ministries, para-church denominations and networks that have a similar drive and focus.
               By identifying partners with a strong “mission match” that ties the organization to the project, we are
               able to bring both parties together to achieve true “win-win partnerships”.  With decades of experience
@@ -143,7 +137,7 @@ Template Name: Homepage
 
           <h4>Our Experience</h4>
           <p>
-            Collide has a long history of campaign management on behalf of ministries and brands.  Collide team
+            Collide Media Grouphas a long history of campaign management on behalf of ministries and brands.  Collide team
             members have developed brands and quarterbacked campaigns.
           </p>
 
@@ -171,9 +165,7 @@ Template Name: Homepage
       <div class="panel-body">
         <div class="container">
           <p>
-            Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
-            back together, we are able to set aside things that are not essential to your goals and mission.  In the
-            case of brand development, we are unique in three ways:
+            Description coming soon!
           </p>
         </div>
       </div>
@@ -194,9 +186,13 @@ Template Name: Homepage
       <div class="panel-body">
         <div class="container">
           <p>
-            Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
-            back together, we are able to set aside things that are not essential to your goals and mission.  In the
-            case of brand development, we are unique in three ways:
+            At the center of every project, there are core elements that comprise the heart and driving force behind a
+             consumer experience.  At Collide, we identify those foundational themes and help identify those
+             organizations, ministries, para-church denominations and networks that have a similar drive and focus.
+             By identifying partners with a strong “mission match” that ties the organization to the project,
+             we are able to bring both parties together to achieve true “win-win partnerships”.  With decades of
+             experience in the marketplace, we have developed strategic partnerships for some of the most successful
+             films and brands in the Christian space.
           </p>
         </div>
       </div>
@@ -213,15 +209,15 @@ Template Name: Homepage
       </p>
       <div class="col-md-6 text-white paragraph-1">
         <p>
-          Over the years, Collide team members have helmed major brand development campaigns for clients such as
+          Over the years, Collide Media Group team members have helmed major brand development campaigns for clients such as
           Thomas Nelson Bibles, Moody Publishing and The Five Love Languages and faith financial icon Ron Blue. They
           have run and contributed to major theatrical campaigns for over 30 films including The Chronicles of Narnia
-          "The Lion, The Witch, and the Wardrobe" in 2005,
+          "The Lion, The Witch, and the Wardrobe"
         </p>
       </div>
       <div class="col-md-6 text-white paragraph-2">
         <p>
-          “Courageous" and "Soul Surfer" in 2011 and Paramount's "Captive" in 2015.  Strategic partnerships have been
+          in 2005, “Courageous" and "Soul Surfer" in 2011 and Paramount's "Captive" in 2015.  Strategic partnerships have been
           formed and developed for clients including the recent box office hit "God's Not Dead" and currently with
           Phil Vischer's "JellyTelly" media platform for families.
         </p>
