@@ -35,13 +35,13 @@ Template Name: Homepage
         </div>
         <div id="brand-dev-box" class="services-box col-md-4">
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/campaign-mgmt.png" alt="collide mg campaign management">
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/brand-dev.png" alt="collide mg campaign management">
           </div>
           <h2>Brand Development</h2>
         </div>
         <div id="strat-part-box" class="services-box col-md-4">
           <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/campaign-mgmt.png" alt="collide mg campaign management">
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/strat-part.png" alt="collide mg campaign management">
           </div>
           <h2>Strategic Partnerships</h2>
         </div>
