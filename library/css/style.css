@@ -2086,50 +2086,47 @@ SPECIFIC PAGE TEMPLATES
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 /* line 709, ../scss/breakpoints/_base.scss */
-.services-box .icon {
-  background: #eaedf2;
-  width: 6em;
-  height: 6em;
-  margin: 0 auto;
-  border-radius: 3.5em;
-}
-/* line 716, ../scss/breakpoints/_base.scss */
 .services-box h2 {
   color: #0075c8;
 }
+/* line 712, ../scss/breakpoints/_base.scss */
+.services-box img {
+  width: 80%;
+  max-height: 164px;
+}
 
-/* line 727, ../scss/breakpoints/_base.scss */
+/* line 724, ../scss/breakpoints/_base.scss */
 #brand-dev,
 #strat-part {
   display: none;
 }
 
-/* line 733, ../scss/breakpoints/_base.scss */
+/* line 730, ../scss/breakpoints/_base.scss */
 #home-services-section-mobile .panel {
   border-radius: 0px;
   margin-bottom: 0px;
   border: none;
 }
-/* line 738, ../scss/breakpoints/_base.scss */
+/* line 735, ../scss/breakpoints/_base.scss */
 #home-services-section-mobile .services-text {
   display: none;
   padding: 2em;
 }
-/* line 742, ../scss/breakpoints/_base.scss */
+/* line 739, ../scss/breakpoints/_base.scss */
 #home-services-section-mobile h2 {
   font-size: 1.4em;
   color: #0075c8;
   margin: 0.6em 0em;
 }
-/* line 746, ../scss/breakpoints/_base.scss */
+/* line 743, ../scss/breakpoints/_base.scss */
 #home-services-section-mobile h2:hover {
   text-decoration: none;
 }
-/* line 750, ../scss/breakpoints/_base.scss */
+/* line 747, ../scss/breakpoints/_base.scss */
 #home-services-section-mobile .panel-title {
   position: relative;
 }
-/* line 753, ../scss/breakpoints/_base.scss */
+/* line 750, ../scss/breakpoints/_base.scss */
 #home-services-section-mobile .plus-icon {
   position: absolute;
   right: 0;
@@ -2137,50 +2134,50 @@ SPECIFIC PAGE TEMPLATES
   font-size: 2em;
 }
 
-/* line 761, ../scss/breakpoints/_base.scss */
+/* line 758, ../scss/breakpoints/_base.scss */
 #home-services-section {
   display: none;
 }
 
-/* line 765, ../scss/breakpoints/_base.scss */
+/* line 762, ../scss/breakpoints/_base.scss */
 #additional-services {
   text-align: center;
   padding: 4em 0em 0em;
   border-top: 1px solid #eaedf2;
 }
-/* line 769, ../scss/breakpoints/_base.scss */
+/* line 766, ../scss/breakpoints/_base.scss */
 #additional-services h3 {
   color: #0075c8;
   font-weight: 700;
   font-size: 1.2em;
 }
-/* line 774, ../scss/breakpoints/_base.scss */
+/* line 771, ../scss/breakpoints/_base.scss */
 #additional-services .service-1,
 #additional-services .service-2 {
   border-right: 2px solid #eaedf2;
 }
 
-/* line 781, ../scss/breakpoints/_base.scss */
+/* line 778, ../scss/breakpoints/_base.scss */
 #about-section {
   background: #0075c8;
 }
-/* line 783, ../scss/breakpoints/_base.scss */
+/* line 780, ../scss/breakpoints/_base.scss */
 #about-section .paragraph-1,
 #about-section .paragraph-2 {
   padding-left: 0em;
 }
 
-/* line 789, ../scss/breakpoints/_base.scss */
+/* line 786, ../scss/breakpoints/_base.scss */
 #about-subhead {
   margin-bottom: 1em;
 }
 
-/* line 794, ../scss/breakpoints/_base.scss */
+/* line 791, ../scss/breakpoints/_base.scss */
 .team-section-content {
   padding: 4em 0em;
 }
 
-/* line 798, ../scss/breakpoints/_base.scss */
+/* line 795, ../scss/breakpoints/_base.scss */
 .team-member {
   width: 100%;
   display: block;
@@ -2188,22 +2185,28 @@ SPECIFIC PAGE TEMPLATES
   position: relative;
   margin-bottom: 2.5%;
 }
-/* line 804, ../scss/breakpoints/_base.scss */
+/* line 801, ../scss/breakpoints/_base.scss */
 .team-member img {
   width: 100%;
   height: 100%;
 }
-/* line 808, ../scss/breakpoints/_base.scss */
-.team-member:hover {
-  cursor: pointer;
-}
-/* line 810, ../scss/breakpoints/_base.scss */
-.team-member:hover .team-member-overlay {
+
+/* line 807, ../scss/breakpoints/_base.scss */
+.member-name-mobile {
   display: block;
-  transition: 0.3s;
+  margin-bottom: 0em;
+  margin-top: 0.2em;
 }
 
-/* line 817, ../scss/breakpoints/_base.scss */
+/* line 813, ../scss/breakpoints/_base.scss */
+.member-job-title-mobile {
+  display: block;
+  color: #0075c8;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+
+/* line 820, ../scss/breakpoints/_base.scss */
 .team-member-overlay {
   position: absolute;
   display: none;
@@ -2212,100 +2215,100 @@ SPECIFIC PAGE TEMPLATES
   width: 100%;
   height: 100%;
 }
-/* line 824, ../scss/breakpoints/_base.scss */
+/* line 827, ../scss/breakpoints/_base.scss */
 .team-member-overlay .team-member-text {
   position: absolute;
   bottom: 1em;
   left: 1em;
 }
-/* line 829, ../scss/breakpoints/_base.scss */
+/* line 832, ../scss/breakpoints/_base.scss */
 .team-member-overlay .member-name {
   color: #fff;
   font-size: 1.75em;
   margin-bottom: 0em;
 }
-/* line 834, ../scss/breakpoints/_base.scss */
+/* line 837, ../scss/breakpoints/_base.scss */
 .team-member-overlay .member-job-title {
   color: #ffde17;
   font-size: 1.2em;
 }
 
-/* line 840, ../scss/breakpoints/_base.scss */
+/* line 843, ../scss/breakpoints/_base.scss */
 #header-section {
   margin-top: 50px;
 }
 
-/* line 844, ../scss/breakpoints/_base.scss */
+/* line 847, ../scss/breakpoints/_base.scss */
 .team-member-info {
   padding: 9em;
 }
 
-/* line 848, ../scss/breakpoints/_base.scss */
+/* line 851, ../scss/breakpoints/_base.scss */
 .team-member-entry {
   padding-top: 1em;
 }
 
-/* line 852, ../scss/breakpoints/_base.scss */
+/* line 855, ../scss/breakpoints/_base.scss */
 #team-member-content {
   padding: 2em 0em;
 }
 
-/* line 856, ../scss/breakpoints/_base.scss */
+/* line 859, ../scss/breakpoints/_base.scss */
 .member-name {
   color: #0075c8;
 }
 
-/* line 860, ../scss/breakpoints/_base.scss */
+/* line 863, ../scss/breakpoints/_base.scss */
 .member-title {
   margin-top: 0.2em;
   font-size: 1.5em;
 }
 
-/* line 866, ../scss/breakpoints/_base.scss */
+/* line 869, ../scss/breakpoints/_base.scss */
 .mail-link .fa {
   padding-right: 0.35em;
 }
 
-/* line 872, ../scss/breakpoints/_base.scss */
+/* line 875, ../scss/breakpoints/_base.scss */
 #contact-section {
   background: #0075c8;
 }
 
-/* line 878, ../scss/breakpoints/_base.scss */
+/* line 881, ../scss/breakpoints/_base.scss */
 .wpcf7-form p {
   color: #fff;
 }
-/* line 881, ../scss/breakpoints/_base.scss */
+/* line 884, ../scss/breakpoints/_base.scss */
 .wpcf7-form input,
 .wpcf7-form textarea {
   border-radius: 0px;
 }
 
-/* line 887, ../scss/breakpoints/_base.scss */
+/* line 890, ../scss/breakpoints/_base.scss */
 .icon-section {
   margin-top: 1.5em;
 }
-/* line 889, ../scss/breakpoints/_base.scss */
+/* line 892, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
   margin: 0em 0em 0em 1.2em;
 }
-/* line 894, ../scss/breakpoints/_base.scss */
+/* line 897, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
   float: left;
 }
 
-/* line 901, ../scss/breakpoints/_base.scss */
+/* line 904, ../scss/breakpoints/_base.scss */
 .icon-1,
 .icon-2,
 .icon-3 {
   padding-bottom: 2.5em;
 }
 
-/* line 907, ../scss/breakpoints/_base.scss */
+/* line 910, ../scss/breakpoints/_base.scss */
 .form-container {
   margin-top: 1em;
 }
@@ -2624,45 +2627,65 @@ you can add resource intensive styles.
     margin-right: 2.5%;
     margin-bottom: 2.5%;
   }
+  /* line 235, ../scss/breakpoints/_768up.scss */
+  .team-member img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 239, ../scss/breakpoints/_768up.scss */
+  .team-member:hover {
+    cursor: pointer;
+  }
+  /* line 241, ../scss/breakpoints/_768up.scss */
+  .team-member:hover .team-member-overlay {
+    display: block;
+    transition: 0.3s;
+  }
 
-  /* line 238, ../scss/breakpoints/_768up.scss */
+  /* line 249, ../scss/breakpoints/_768up.scss */
   .team-member-overlay .team-member-text {
     position: absolute;
     bottom: 1em;
     left: 1em;
   }
-  /* line 243, ../scss/breakpoints/_768up.scss */
+  /* line 254, ../scss/breakpoints/_768up.scss */
   .team-member-overlay .member-name {
     color: #fff;
     font-size: 1.6em;
   }
-  /* line 247, ../scss/breakpoints/_768up.scss */
+  /* line 258, ../scss/breakpoints/_768up.scss */
   .team-member-overlay .member-job-title {
     color: #ffde17;
     font-size: 1em;
   }
 
-  /* line 253, ../scss/breakpoints/_768up.scss */
+  /* line 264, ../scss/breakpoints/_768up.scss */
+  .member-name-mobile,
+  .member-job-title-mobile {
+    display: none;
+  }
+
+  /* line 270, ../scss/breakpoints/_768up.scss */
   #header-section {
     margin-top: 0px;
   }
 
-  /* line 257, ../scss/breakpoints/_768up.scss */
+  /* line 274, ../scss/breakpoints/_768up.scss */
   .team-member-info {
     padding: 17em;
   }
 
-  /* line 261, ../scss/breakpoints/_768up.scss */
+  /* line 278, ../scss/breakpoints/_768up.scss */
   .team-member-entry {
     padding-top: 0.5em;
   }
 
-  /* line 265, ../scss/breakpoints/_768up.scss */
+  /* line 282, ../scss/breakpoints/_768up.scss */
   #team-member-content {
     padding: 6em 0em;
   }
 
-  /* line 270, ../scss/breakpoints/_768up.scss */
+  /* line 287, ../scss/breakpoints/_768up.scss */
   .form-container {
     margin-top: 0em;
     padding-left: 4.5em;

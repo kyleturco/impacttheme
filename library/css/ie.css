@@ -425,45 +425,65 @@ mobile. Make sure to double check these!
   margin-right: 2.5%;
   margin-bottom: 2.5%;
 }
+/* line 235, ../scss/breakpoints/_768up.scss */
+.team-member img {
+  width: 100%;
+  height: 100%;
+}
+/* line 239, ../scss/breakpoints/_768up.scss */
+.team-member:hover {
+  cursor: pointer;
+}
+/* line 241, ../scss/breakpoints/_768up.scss */
+.team-member:hover .team-member-overlay {
+  display: block;
+  transition: 0.3s;
+}
 
-/* line 238, ../scss/breakpoints/_768up.scss */
+/* line 249, ../scss/breakpoints/_768up.scss */
 .team-member-overlay .team-member-text {
   position: absolute;
   bottom: 1em;
   left: 1em;
 }
-/* line 243, ../scss/breakpoints/_768up.scss */
+/* line 254, ../scss/breakpoints/_768up.scss */
 .team-member-overlay .member-name {
   color: #fff;
   font-size: 1.6em;
 }
-/* line 247, ../scss/breakpoints/_768up.scss */
+/* line 258, ../scss/breakpoints/_768up.scss */
 .team-member-overlay .member-job-title {
   color: #ffde17;
   font-size: 1em;
 }
 
-/* line 253, ../scss/breakpoints/_768up.scss */
+/* line 264, ../scss/breakpoints/_768up.scss */
+.member-name-mobile,
+.member-job-title-mobile {
+  display: none;
+}
+
+/* line 270, ../scss/breakpoints/_768up.scss */
 #header-section {
   margin-top: 0px;
 }
 
-/* line 257, ../scss/breakpoints/_768up.scss */
+/* line 274, ../scss/breakpoints/_768up.scss */
 .team-member-info {
   padding: 17em;
 }
 
-/* line 261, ../scss/breakpoints/_768up.scss */
+/* line 278, ../scss/breakpoints/_768up.scss */
 .team-member-entry {
   padding-top: 0.5em;
 }
 
-/* line 265, ../scss/breakpoints/_768up.scss */
+/* line 282, ../scss/breakpoints/_768up.scss */
 #team-member-content {
   padding: 6em 0em;
 }
 
-/* line 270, ../scss/breakpoints/_768up.scss */
+/* line 287, ../scss/breakpoints/_768up.scss */
 .form-container {
   margin-top: 0em;
   padding-left: 4.5em;

@@ -28,15 +28,21 @@ Template Name: Homepage
     <div id="home-services-content" class="inner-content">
       <div class="services-boxes">
         <div id="camp-mgmt-box" class="services-box col-md-4 active">
-          <div class="icon"></div>
+          <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/campaign-mgmt.png" alt="collide mg campaign management">
+          </div>
           <h2>Campaign Management</h2>
         </div>
         <div id="brand-dev-box" class="services-box col-md-4">
-          <div class="icon"></div>
+          <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/campaign-mgmt.png" alt="collide mg campaign management">
+          </div>
           <h2>Brand Development</h2>
         </div>
         <div id="strat-part-box" class="services-box col-md-4">
-          <div class="icon"></div>
+          <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/campaign-mgmt.png" alt="collide mg campaign management">
+          </div>
           <h2>Strategic Partnerships</h2>
         </div>
         <div class="clearfix"></div>
@@ -251,6 +257,8 @@ Template Name: Homepage
         ?>
         <div class="team-member">
           <div><?php the_post_thumbnail('full'); ?></div>
+          <h2 class="member-name-mobile"><?php echo $member_name; ?></h2>
+          <p class="member-job-title-mobile"><?php echo $job_title; ?></p>
           <a href="<?php echo $permalink; ?>" target="_blank">
           <div class="team-member-overlay">
             <div class="team-member-text">
