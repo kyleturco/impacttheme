@@ -383,107 +383,112 @@ mobile. Make sure to double check these!
 }
 
 /* line 197, ../scss/breakpoints/_768up.scss */
+.services-box.active {
+  border: 1px solid #afdeff;
+}
+
+/* line 201, ../scss/breakpoints/_768up.scss */
 #camp-mgmt-box,
 #brand-dev-box {
   margin-right: 2em;
 }
 
-/* line 202, ../scss/breakpoints/_768up.scss */
+/* line 206, ../scss/breakpoints/_768up.scss */
 .services-content {
   height: 20em;
 }
 
-/* line 206, ../scss/breakpoints/_768up.scss */
+/* line 210, ../scss/breakpoints/_768up.scss */
 .services-boxes {
   margin-bottom: 3em;
 }
 
-/* line 210, ../scss/breakpoints/_768up.scss */
+/* line 214, ../scss/breakpoints/_768up.scss */
 #home-services-content {
   max-width: 900px;
   margin: 0 auto;
 }
 
-/* line 215, ../scss/breakpoints/_768up.scss */
+/* line 219, ../scss/breakpoints/_768up.scss */
 #home-services-section {
   display: block;
 }
 
-/* line 219, ../scss/breakpoints/_768up.scss */
+/* line 223, ../scss/breakpoints/_768up.scss */
 #home-services-section-mobile {
   display: none;
 }
 
-/* line 225, ../scss/breakpoints/_768up.scss */
+/* line 229, ../scss/breakpoints/_768up.scss */
 #about-section .paragraph-2 {
   padding-left: 1em;
 }
 
-/* line 231, ../scss/breakpoints/_768up.scss */
+/* line 235, ../scss/breakpoints/_768up.scss */
 .team-member {
   width: 30%;
   margin-right: 2.5%;
   margin-bottom: 2.5%;
 }
-/* line 235, ../scss/breakpoints/_768up.scss */
+/* line 239, ../scss/breakpoints/_768up.scss */
 .team-member img {
   width: 100%;
   height: 100%;
 }
-/* line 239, ../scss/breakpoints/_768up.scss */
+/* line 243, ../scss/breakpoints/_768up.scss */
 .team-member:hover {
   cursor: pointer;
 }
-/* line 241, ../scss/breakpoints/_768up.scss */
+/* line 245, ../scss/breakpoints/_768up.scss */
 .team-member:hover .team-member-overlay {
   display: block;
   transition: 0.3s;
 }
 
-/* line 249, ../scss/breakpoints/_768up.scss */
+/* line 253, ../scss/breakpoints/_768up.scss */
 .team-member-overlay .team-member-text {
   position: absolute;
   bottom: 1em;
   left: 1em;
 }
-/* line 254, ../scss/breakpoints/_768up.scss */
+/* line 258, ../scss/breakpoints/_768up.scss */
 .team-member-overlay .member-name {
   color: #fff;
   font-size: 1.6em;
 }
-/* line 258, ../scss/breakpoints/_768up.scss */
+/* line 262, ../scss/breakpoints/_768up.scss */
 .team-member-overlay .member-job-title {
   color: #ffde17;
   font-size: 1em;
 }
 
-/* line 264, ../scss/breakpoints/_768up.scss */
+/* line 268, ../scss/breakpoints/_768up.scss */
 .member-name-mobile,
 .member-job-title-mobile {
   display: none;
 }
 
-/* line 270, ../scss/breakpoints/_768up.scss */
+/* line 274, ../scss/breakpoints/_768up.scss */
 #header-section {
   margin-top: 0px;
 }
 
-/* line 274, ../scss/breakpoints/_768up.scss */
+/* line 278, ../scss/breakpoints/_768up.scss */
 .team-member-info {
   padding: 17em;
 }
 
-/* line 278, ../scss/breakpoints/_768up.scss */
+/* line 282, ../scss/breakpoints/_768up.scss */
 .team-member-entry {
   padding-top: 0.5em;
 }
 
-/* line 282, ../scss/breakpoints/_768up.scss */
+/* line 286, ../scss/breakpoints/_768up.scss */
 #team-member-content {
   padding: 6em 0em;
 }
 
-/* line 287, ../scss/breakpoints/_768up.scss */
+/* line 291, ../scss/breakpoints/_768up.scss */
 .form-container {
   margin-top: 0em;
   padding-left: 4.5em;
