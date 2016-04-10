@@ -2,6 +2,12 @@
 /*
 Template Name: Homepage
 */
+
+// Sets WP editable fields
+$hero_description = get_field('hero_description');
+$camp_mgmt = get_field('camp_mgmt_text');
+$brand_dev = get_field('brand_dev_text');
+$strat_partner = get_field('strat_partner_text');
 ?>
 
 <?php get_header(); ?>
@@ -14,8 +20,7 @@ Template Name: Homepage
       </div>
       <h1 class="text-white">Elevating media that inspires a deeper relationship with Christ</h1>
       <p id="home-hero-description" class="text-white">
-        Collide Media Group is a Nashville-based marketing company that specializes in faith based,
-        family entertainment
+        <?php echo $hero_description; ?>
       </p>
       <a class="btn-link" href="#home-services-section">
         <div id="home-hero-btn" class="btn-primary">our services <i class="fa fa-angle-double-down"></i></div>
@@ -49,54 +54,18 @@ Template Name: Homepage
       </div>
       <div class="services-content">
         <div class="content-box" id="services">
-          <p>
-            Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
-            back together, we are able to set aside things that are not essential to your goals and mission.  In the
-            case of brand development, we are unique in three ways:
-          </p>
-          <div class="bottom-section content-box">
-            <div class="col-md-4 quality-item no-left-pad">
-              <h4>Our Faith</h4>
-              <p>
-                We believe that we have a Creator and everything was created, likewise, we look at someone with an
-                idea (or tons of ideas) or a brand, and know this came out of their life somewhere.
-              </p>
-            </div>
-            <div class="col-md-4 quality-item no-left-pad">
-              <h4>Our Experience</h4>
-              <p>
-                Collide Media Group has a long history of campaign management on behalf of ministries and brands.  Collide team
-                members have developed brands and quarterbacked campaigns.
-              </p>
-            </div>
-            <div class="col-md-4 quality-item no-left-pad">
-              <h4>Our Experience</h4>
-              <p>
-                A lot of what we do is create a differentiation, which comes with a deep understanding and working
-                knowledge of the market landscape.
-              </p>
-            </div>
-            <div class="clearfix"></div>
+          <div class="camp-mgmt-content">
+            <p><?php echo $camp_mgmt; ?></p>
           </div>
         </div>
         <div class="content-box" id="brand-dev">
           <div class="brand-dev-content">
-            <p>
-              Description coming soon!
-            </p>
+            <p><?php echo $brand_dev; ?></p>
           </div>
         </div>
         <div class="content-box" id="strat-part">
           <div class="strat-part-content">
-            <p>
-              At the center of every project, there are core elements that comprise the heart and driving force behind
-              a consumer experience.  At Collide Media Group, we identify those foundational themes and help identify those
-              organizations, ministries, para-church denominations and networks that have a similar drive and focus.
-              By identifying partners with a strong “mission match” that ties the organization to the project, we are
-              able to bring both parties together to achieve true “win-win partnerships”.  With decades of experience
-              in the marketplace, we have developed strategic partnerships for some of the most successful films and
-              brands in the Christian space.
-            </p>
+            <p><?php echo $strat_partner; ?></p>
           </div>
         </div>
       </div>
@@ -124,28 +93,7 @@ Template Name: Homepage
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <div class="container">
-          <p>
-            Our exploration process starts by going back to the beginning.  By taking your brand apart and putting it
-            back together, we are able to set aside things that are not essential to your goals and mission.  In the
-            case of brand development, we are unique in three ways:
-          </p>
-          <h4>Our Faith</h4>
-          <p>
-            We believe that we have a Creator and everything was created, likewise, we look at someone with an
-            idea (or tons of ideas) or a brand, and know this came out of their life somewhere.
-          </p>
-
-          <h4>Our Experience</h4>
-          <p>
-            Collide Media Grouphas a long history of campaign management on behalf of ministries and brands.  Collide team
-            members have developed brands and quarterbacked campaigns.
-          </p>
-
-          <h4>Our Experience</h4>
-          <p>
-            A lot of what we do is create a differentiation, which comes with a deep understanding and working
-            knowledge of the market landscape.
-          </p>
+          <p><?php echo $camp_mgmt; ?></p>
         </div>
       </div>
     </div>
@@ -165,7 +113,7 @@ Template Name: Homepage
       <div class="panel-body">
         <div class="container">
           <p>
-            Description coming soon!
+            <?php echo $brand_dev; ?>
           </p>
         </div>
       </div>
@@ -185,15 +133,7 @@ Template Name: Homepage
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
         <div class="container">
-          <p>
-            At the center of every project, there are core elements that comprise the heart and driving force behind a
-             consumer experience.  At Collide, we identify those foundational themes and help identify those
-             organizations, ministries, para-church denominations and networks that have a similar drive and focus.
-             By identifying partners with a strong “mission match” that ties the organization to the project,
-             we are able to bring both parties together to achieve true “win-win partnerships”.  With decades of
-             experience in the marketplace, we have developed strategic partnerships for some of the most successful
-             films and brands in the Christian space.
-          </p>
+          <p><?php echo $strat_partner; ?></p>
         </div>
       </div>
     </div>
