@@ -8,6 +8,7 @@ $hero_description = get_field('hero_description');
 $camp_mgmt = get_field('camp_mgmt_text');
 $brand_dev = get_field('brand_dev_text');
 $strat_partner = get_field('strat_partner_text');
+$contact_description = get_field('contact_text');
 ?>
 
 <?php get_header(); ?>
@@ -220,7 +221,7 @@ $strat_partner = get_field('strat_partner_text');
       <h1 class="header-underline text-white">Let's Talk</h1>
       <div class="clearfix"></div>
       <div class="col-md-4 no-left-pad">
-        <p class="text-white">Sentence encouraging communication of some kind. Get in touch today!</p>
+        <p class="text-white"><?php echo $contact_description; ?></p>
         <div class="icon-section">
           <div class="icon-1">
             <i class="fa fa-phone-square text-white"></i><h4 class="contact-item text-white">615-567-3122</h4>
