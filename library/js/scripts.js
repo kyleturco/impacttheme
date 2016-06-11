@@ -1,11 +1,40 @@
 jQuery(document).ready(function($) {
 
+  var $window = $(window)
+  var $btnLink = $('.btn-link')
+  var $headerLink = $('.header-link')
+
+  var $box1 = $('#camp-mgmt-box')
+  var $box2 = $('#brand-dev-box')
+  var $box3 = $('#strat-part-box')
+
+  var $services = $('#services')
+  var $brandDev = $('#brand-dev')
+  var $stratPart = $('#strat-part')
+
   function init() {
-    $('.btn-link').on('click', smoothScroll)
-    $('.header-link').on('click', smoothScroll)
-    servicesShowHide()
-    $(window).scroll(function(event) {
+    $btnLink.on('click', smoothScroll)
+    $headerLink.on('click', smoothScroll)
+    $window.scroll(function(event) {
       changeHeaderStyles()
+    })
+    $box1.on('click', function(){
+      addActiveClass($box1)
+      removeActiveClass($box2, $box3)
+      displayBlock($services)
+      displayNone($brandDev, $stratPart)
+    })
+    $box2.on('click', function(){
+      addActiveClass($box2)
+      removeActiveClass($box1, $box3)
+      displayBlock($brandDev)
+      displayNone($services, $stratPart)
+    })
+    $box3.on('click', function(){
+      addActiveClass($box3)
+      removeActiveClass($box1, $box2)
+      displayBlock($stratPart)
+      displayNone($services, $brandDev)
     })
   }
 
@@ -17,39 +46,22 @@ jQuery(document).ready(function($) {
     return false;
   }
 
-  function servicesShowHide() {
-    var $box1 = $('#camp-mgmt-box')
-    var $box2 = $('#brand-dev-box')
-    var $box3 = $('#strat-part-box')
+  function displayBlock($element) {
+    $element.css('display', 'block')
+  }
 
-    var $services = $('#services')
-    var $brandDev = $('#brand-dev')
-    var $stratPart = $('#strat-part')
+  function displayNone($elementOne, $elementTwo) {
+    $elementOne.css('display', 'none')
+    $elementTwo.css('display', 'none')
+  }
 
-    $box1.on('click', function(){
-      $(this).addClass('active')
-      $box2.removeClass('active')
-      $box3.removeClass('active')
-      $services.css('display', 'block')
-      $brandDev.css('display', 'none')
-      $stratPart.css('display', 'none')
-    })
-    $box2.on('click', function(){
-      $(this).addClass('active')
-      $box1.removeClass('active')
-      $box3.removeClass('active')
-      $services.css('display', 'none')
-      $brandDev.css('display', 'block')
-      $stratPart.css('display', 'none')
-    })
-    $box3.on('click', function(){
-      $(this).addClass('active')
-      $box1.removeClass('active')
-      $box2.removeClass('active')
-      $services.css('display', 'none')
-      $brandDev.css('display', 'none')
-      $stratPart.css('display', 'block')
-    })
+  function addActiveClass($element) {
+    $element.addClass('active')
+  }
+
+  function removeActiveClass($elementOne, $elementTwo) {
+    $elementOne.removeClass('active')
+    $elementTwo.removeClass('active')
   }
 
   function changeHeaderStyles() {
